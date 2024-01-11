@@ -1,2 +1,19 @@
 .header {
+  display: flex;
+  margin: 10px 50px 10px 50px;
+  justify-content: space-between;
+}
+.logo {
+}
+.navbar {
+  display: flex;
+  margin: 10px 30px;
+  gap: 40px;
+  font-size: larger;
+  font-weight: 800;
+  color: #0d9488;
+  a {
+    text-decoration: none;
+    color: #0d9488;
+  }
 }

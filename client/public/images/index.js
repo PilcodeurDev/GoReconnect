@@ -1,4 +1,4 @@
-// images articles
 import banner from "./alixAndShiba.jpg";
+import main from "./main.webp";
 
-export { banner };
+export { banner, main };

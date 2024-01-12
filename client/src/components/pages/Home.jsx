@@ -3,6 +3,7 @@
  */
 import { Link } from "react-router-dom";
 import Banner from "../banner/Banner.jsx";
+import Kinesiologie from "../kinesiologie/kinesiologie.jsx";
 
 /**
  * The internal imports
@@ -11,10 +12,21 @@ import Banner from "../banner/Banner.jsx";
 export default function Home() {
   return (
     <>
-      <div className="container">
-        <Banner />
-        <p>world, hello</p>
-      </div>
+      <Banner />
+      <Kinesiologie />
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
+      <p>world, hello</p>
     </>
   );
 }

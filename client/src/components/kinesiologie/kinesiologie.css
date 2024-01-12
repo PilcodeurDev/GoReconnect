@@ -1,0 +1,20 @@
+.textImage
+  p:first-child {
+    margin-bottom: 3rem;
+  }
+  p{
+    margin-bottom: .8rem;
+  }
+
+.imgLaKinesiologie {
+  background-image: url("../../../public/images/main.webp");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  float: right;
+  shape-outside: margin-box;
+  margin-left: 20px;
+}

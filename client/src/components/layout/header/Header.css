@@ -1,8 +1,8 @@
 .header {
   display: flex;
-  margin: 15px 80px 15px 80px;
+  margin: 15px 60px 15px 80px;
   justify-content: space-between;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 .logo {
 }

@@ -11,8 +11,8 @@ import { logotexte } from "../../../assets";
 
 export default function header() {
   return (
-    <header className="header">
-      <div className="logo">
+    <header>
+      <div>
         <Link to="/">
           <img
             src={logotexte}
@@ -22,9 +22,9 @@ export default function header() {
         </Link>
       </div>
       <div className="navbar">
-        <Link to="/home#anchor_id_no_setup1">La Kinésiologie</Link>
-        <Link to="/home#anchor_id_no_setup2">Qui Suis-Je</Link>
-        <Link to="/home#anchor_id_no_setup3">Rendez-Vous</Link>
+        <Link to="/#laKinesiologie">La Kinésiologie</Link>
+        <Link to="/#anchor_id_no_setup2">Qui Suis-Je</Link>
+        <Link to="/#anchor_id_no_setup3">Rendez-Vous</Link>
       </div>
     </header>
   );

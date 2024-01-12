@@ -2,10 +2,10 @@ import "./kinesiologie.css";
 
 export default function kinesiologie() {
   return (
-    <section>
+    <section id="laKinesiologie">
       <div className="container">
         <div>
-          <h2>C'est quoi la kinésiologie ?</h2>
+          <h2> C'est quoi la kinésiologie ?</h2>
           <div className="textImage">
             <div className="text">
               <p>

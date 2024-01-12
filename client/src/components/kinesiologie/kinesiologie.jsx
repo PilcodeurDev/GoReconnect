@@ -1,5 +1,4 @@
 import "./kinesiologie.css";
-import { main } from "../../../public/images";
 
 export default function kinesiologie() {
   return (
@@ -37,9 +36,9 @@ export default function kinesiologie() {
                 dans la vie de cet animal ?"
               </p>
               <p>
-                Une fois l'origine trouvée, je vais laisser la mémoire de
-                l'évènement en place tout en retirant l'émotion très forte qui y
-                était associée.
+                Une fois trouvée, je vais laisser la mémoire de l'évènement en
+                place tout en retirant l'émotion très forte qui y était
+                associée.
               </p>
             </div>
           </div>

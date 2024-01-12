@@ -7,8 +7,8 @@
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.7;
+  font-family: montserrat;
+  line-height: 1.6;
   font-size: 20px;
 
   color: #cecece;
@@ -26,6 +26,7 @@ body {
 }
 
 i {
+  font-family: montserrat-italic;
   font-size: 1.2rem;
 }
 .container {
@@ -38,7 +39,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #292828;
+  background-color: #1c1c1c;
 }
 
 h2 {
@@ -49,4 +50,14 @@ h2 {
 @font-face {
   font-family: alexBrush;
   src: url(assets/fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: montserrat-italic;
+  src: url(assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }

@@ -2,6 +2,7 @@
  * The external imports
  */
 import { Link } from "react-router-dom";
+import Banner from "../banner/Banner.jsx";
 
 /**
  * The internal imports
@@ -10,8 +11,10 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
-      <p>world, hello</p>
+      <div className="container">
+        <Banner />
+        <p>world, hello</p>
+      </div>
     </>
   );
 }

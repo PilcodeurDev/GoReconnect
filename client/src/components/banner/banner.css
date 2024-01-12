@@ -1,0 +1,15 @@
+.bannerImg {
+  background-image: url("public/images/alixAndShiba.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 4rem;
+  font-family: alexBrush;
+}

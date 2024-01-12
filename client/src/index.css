@@ -2,6 +2,7 @@
 ::after,
 ::before {
   margin: auto 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,7 +22,16 @@
 }
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: alexBrush;
+  src: url(assets/fonts/AlexBrush-Regular.ttf);
 }

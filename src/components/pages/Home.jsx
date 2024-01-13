@@ -1,8 +1,8 @@
 /**
  * The external imports
  */
-import Banner from "../banner/Banner.jsx";
-import Kinesiologie from "../kinesiologie/Kinesiologie.jsx";
+import Banner from "../banner/Banner";
+import Kinesiologie from "../kinesiologie/Kinesiologie";
 
 /**
  * The internal imports

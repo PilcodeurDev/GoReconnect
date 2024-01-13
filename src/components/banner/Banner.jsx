@@ -1,3 +1,6 @@
+/**
+ * The internal imports
+ */
 import "./Banner.css";
 
 export default function Banner() {

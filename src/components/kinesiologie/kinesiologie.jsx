@@ -1,3 +1,6 @@
+/**
+ * The internal imports
+ */
 import "./kinesiologie.css";
 
 export default function kinesiologie() {

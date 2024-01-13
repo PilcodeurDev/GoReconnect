@@ -1,3 +1,6 @@
+/**
+ * The internal imports
+ */
 import "./Footer.css";
 
 export default function Footer() {

@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
  * The internal imports
  */
 import "./App.css";
-import Home from "./components/pages/home.jsx";
+import Home from "./components/pages/Home.jsx";
 import GeneralConditionsSale from "./components/pages/GeneralConditionsSale.jsx";
 import LegalNotion from "./components/pages/legalNotion.jsx";
 import Layout from "./components/layout/Layout.jsx";

@@ -1,8 +1,12 @@
 {
-  "name": "client",
+  "name": "ka-formation-25",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "18.x",
+    "npm": ">=7.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

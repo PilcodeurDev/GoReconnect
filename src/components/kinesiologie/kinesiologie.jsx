@@ -1,7 +1,7 @@
 /**
  * The internal imports
  */
-import "./kinesiologie.css";
+import "./Kinesiologie.css";
 
 export default function kinesiologie() {
   return (

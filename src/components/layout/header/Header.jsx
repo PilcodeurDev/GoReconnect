@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 /**
  * The internal imports
  */
-import "./header.css";
+import "./Header.css";
 import { logotexte } from "../../../assets";
 
 export default function header() {

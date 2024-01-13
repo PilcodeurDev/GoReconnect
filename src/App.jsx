@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
       </Route>
       <Route
-        path="/Condition-general-de-vente"
+        path="/condition-general-de-vente"
         element={<GeneralConditionsSale />}
       />
       <Route path="/mention-legal" element={<LegalNotion />} />

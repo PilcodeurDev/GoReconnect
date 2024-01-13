@@ -1,7 +1,6 @@
 /**
  * The external imports
  */
-import { Link } from "react-router-dom";
 import Banner from "../banner/Banner.jsx";
 import Kinesiologie from "../kinesiologie/kinesiologie.jsx";
 

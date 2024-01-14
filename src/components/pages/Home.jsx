@@ -11,7 +11,9 @@ import Kinesiologie from "../kinesiologie/Kinesiologie";
 export default function Home() {
   return (
     <>
-      <Banner />
+      <header>
+        <Banner />
+      </header>
       <Kinesiologie />
       <p>world, hello</p>
       <p>world, hello</p>

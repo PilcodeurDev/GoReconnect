@@ -23,7 +23,7 @@ export default function navbar() {
       </div>
       <div className="navButton">
         <Link to="/#laKinesiologie">La Kinésiologie</Link>
-        <Link to="/#anchor_id_no_setup2.0">Qui Suis-Je</Link>
+        <Link to="/#quiJeSuis">Qui Suis-Je</Link>
         <Link to="/#anchor_id_no_setup3">Rendez-Vous</Link>
       </div>
     </nav>

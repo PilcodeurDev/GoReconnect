@@ -1,17 +1,13 @@
 /**
- * The external imports
- */
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
-/**
  * The internal imports
  */
 import "./QuiJeSuis.css";
 import { alix } from "../../assets/index";
+import QuiJeSuisButton from "../button/QuiJeSuisButton";
 
 export default function QuiJeSuis() {
+const pathBtn = "/#";
+
   return (
     <section id="quiJeSuis">
       <div className="container">
@@ -40,18 +36,8 @@ export default function QuiJeSuis() {
                 professionnelle et me former à la kinésiologie animalière en
                 Touraine, à l'école Âme Animale en 2021-2022.
               </p>
-              <div className="btnInfo">
-                <Link
-                  to="/qui_suis_je"
-                  className="buttonQuiJeSuis"
-                >
-                  <span className="textButton">À propos de alix</span>
-                  <FontAwesomeIcon
-                    className="rotate"
-                    icon={faArrowRight}
-                  />
-                </Link>
-              </div>
+              {(pathBtn !== "/#") && <QuiJeSuisButton path={pathBtn} />
+              }
             </div>
           </div>
         </div>

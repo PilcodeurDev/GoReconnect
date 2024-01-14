@@ -1,4 +1,4 @@
-header {
+nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -7,7 +7,7 @@ header {
   background: #1c1e22;
 }
 
-.navbar {
+.navButton {
   display: flex;
   margin: 10px 30px;
   gap: 40px;

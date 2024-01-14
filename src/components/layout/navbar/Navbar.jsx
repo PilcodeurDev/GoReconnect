@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 /**
  * The internal imports
  */
-import "./Header.css";
+import "./Navbar.css";
 import { logotexte } from "../../../assets";
 
-export default function header() {
+export default function navbar() {
   return (
-    <header>
+    <nav>
       <div>
         <Link to="/">
           <img
@@ -21,11 +21,11 @@ export default function header() {
           />
         </Link>
       </div>
-      <div className="navbar">
+      <div className="navButton">
         <Link to="/#laKinesiologie">La Kinésiologie</Link>
         <Link to="/#anchor_id_no_setup2">Qui Suis-Je</Link>
         <Link to="/#anchor_id_no_setup3">Rendez-Vous</Link>
       </div>
-    </header>
+    </nav>
   );
 }

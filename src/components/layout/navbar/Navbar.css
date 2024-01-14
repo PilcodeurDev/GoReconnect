@@ -1,12 +1,13 @@
-header {
+nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 15px 60px 15px 80px;
+  padding: 10px 60px 10px 80px;
   position: fixed;
+  background: #1c1e22;
 }
 
-.navbar {
+.navButton {
   display: flex;
   margin: 10px 30px;
   gap: 40px;

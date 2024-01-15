@@ -4,6 +4,7 @@
 import Banner from "../banner/Banner";
 import Kinesiologie from "../kinesiologie/Kinesiologie";
 import QuiJeSuis from "../quiJeSuis/QuiJeSuis";
+import Reservation from "../reservation/reservation";
 
 /**
  * The internal imports
@@ -17,19 +18,7 @@ export default function Home() {
       </header>
       <Kinesiologie />
       <QuiJeSuis />
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
-      <p>world, hello</p>
+      <Reservation />
     </>
   );
 }

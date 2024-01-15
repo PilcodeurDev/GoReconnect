@@ -24,7 +24,7 @@ export default function navbar() {
       <div className="navButton">
         <Link to="/#laKinesiologie">La Kinésiologie</Link>
         <Link to="/#quiJeSuis">Qui Suis-Je</Link>
-        <Link to="/#anchor_id_no_setup3">Rendez-Vous</Link>
+        <Link to="/#reservation">Rendez-Vous</Link>
       </div>
     </nav>
   );

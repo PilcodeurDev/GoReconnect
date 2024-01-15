@@ -1,0 +1,56 @@
+.info{
+  font-family: montserrat-italic;
+  text-decoration: underline ;
+}
+
+.choice{
+  display: flex;
+  justify-content: space-around;
+  scale: 1;
+}
+
+.choice a{
+  position: relative;
+  text-decoration: none;
+  color: #CECECE;
+  font-family: montserrat-bold;
+}
+
+.bulle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem 0;
+  padding: 1rem;
+  width: 400px;
+  height: 150px;
+  border: 2px solid rgb(239, 239, 239);
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px 0px rgba(66, 66, 66, 0.814);
+}
+
+.bulle:hover{
+  scale: 1.1;
+  transition: all .5s;
+}
+
+.recommandation{
+  position: absolute;
+  top: 15%;
+  font-family: montserrat;
+  font-size: .8rem;
+}
+
+#bulleWhatsApp{
+  border: 2px solid #176c26;
+  box-shadow: 4px 4px 10px 0px #1c7d2c28;
+}
+
+.logoWhatsApp{
+  font-size: 3rem;
+  color: #1b8755;
+}
+
+.logoEnveloppe{
+  font-size: 2.6rem;
+}

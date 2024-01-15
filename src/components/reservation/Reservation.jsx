@@ -12,6 +12,7 @@ export default function Reservation() {
     <section id="reservation">
       <div className="container">
         <h2>Prendre Rendez-vous</h2>
+        <p className="info">Pour votre première séance, merci de réserver un appel téléphonique:</p>
         <div className="choice">
           <a href="https://wa.me/33668352377" rel="noreferrer" target="_blank">
             <span className="recommandation">Recommandé:</span>

@@ -1,3 +1,8 @@
+.info{
+  font-family: montserrat-italic;
+  text-decoration: underline ;
+}
+
 .choice{
   display: flex;
   justify-content: space-around;
@@ -22,7 +27,6 @@
   border: 2px solid rgb(239, 239, 239);
   border-radius: 30px;
   box-shadow: 4px 4px 10px 0px rgba(66, 66, 66, 0.814);
-
 }
 
 .bulle:hover{
@@ -35,7 +39,6 @@
   top: 15%;
   font-family: montserrat;
   font-size: .8rem;
-  text-decoration: underline;
 }
 
 #bulleWhatsApp{

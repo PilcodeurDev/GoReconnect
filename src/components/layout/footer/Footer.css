@@ -1,9 +1,11 @@
 footer {
   height: 15rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 1rem 5rem;
   text-align: center;
+  background: #1c1c1c;
 }
 
 .textCenter {

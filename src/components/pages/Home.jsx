@@ -1,10 +1,10 @@
 /**
  * The external imports
  */
-import Banner from "../banner/Banner";
-import Kinesiologie from "../kinesiologie/Kinesiologie";
-import QuiJeSuis from "../quiJeSuis/QuiJeSuis";
-import Reservation from "../reservation/reservation";
+import Banner from "../section/banner/Banner";
+import Kinesiologie from "../section/kinesiologie/Kinesiologie";
+import QuiJeSuis from "../section/quiJeSuis/QuiJeSuis";
+import Reservation from "../section/reservation/reservation";
 
 /**
  * The internal imports

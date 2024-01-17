@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.container::after {
+/* .container::after {
   position: absolute;
   content: "";
   width: 1px;
@@ -11,7 +11,7 @@
   bottom: 0px;
   background-color: #565656;
   z-index: -1;
-}
+} */
 
 .row {
   margin-top: 4rem;

@@ -20,13 +20,13 @@ export default function Footer() {
 
   return (
     <footer>
-        <div>
+        <Link to="/#moveUp">
           <img
             src={logo}
             alt="logo kinésiologie animalière 25"
             className="logoKa25"
           />
-        </div>
+        </Link>
         <div>
           <div>
             <span>

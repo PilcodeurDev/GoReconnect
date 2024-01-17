@@ -13,7 +13,7 @@ export default function navbar() {
   return (
     <nav>
       <div>
-        <Link to="/">
+        <Link to="/#moveUp">
           <img
             src={logotexte}
             alt="logo Kinésiologie Animalière 25"

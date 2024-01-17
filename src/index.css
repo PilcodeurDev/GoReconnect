@@ -47,6 +47,13 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.lien {
+  font-style: italic;
+  color: rgb(30, 95, 218);
+  text-decoration: underline;
+  text-underline-offset: 3px ;
+}
+
 @font-face {
   font-family: alexBrush;
   src: url(assets/fonts/AlexBrush-Regular.ttf);

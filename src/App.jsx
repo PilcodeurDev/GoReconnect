@@ -9,7 +9,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import GeneralConditionsSale from "./components/pages/GeneralConditionsSale";
 import GeneralConditionsUse from "./components/pages/GeneralConditionsUse";
-import LegalNotion from "./components/pages/LegalNotion";
+import LegalNotion from "./components/pages/legalNotion/LegalNotion";
 import Layout from "./components/layout/Layout";
 
 function App() {

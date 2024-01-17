@@ -1,6 +1,11 @@
-export default function legalNotion() {
+/**
+ * The internal imports
+ */
+import "./LegalNotion.css";
+
+export default function LegalNotion() {
   const nomDuSite = "Kinesiologie Animaliere 25";
-  const urlDuSite = "https://www.kinesiologie-animaliere-25.fr";``
+  const urlDuSite = "https://www.kinesiologie-animaliere-25.fr";
   const proprietaire = "Alix Lucidarme";
   const adresseProprietaire = "32 Bis rue de l'Etang, 25560 Frasne";
   const telephoneProprietaire = "+33668352377";
@@ -9,7 +14,7 @@ export default function legalNotion() {
   const telephoneHebergeur = "(+1) 415 358 0857";
   return (
     <section>
-      <div className="container">
+      <div className="container notionsLegales">
         <h1>
           <strong>Mentions légales</strong>
         </h1>

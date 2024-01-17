@@ -13,7 +13,7 @@ import Reservation from "../reservation/reservation";
 export default function Home() {
   return (
     <>
-      <header>
+      <header id="moveUp">
         <Banner />
       </header>
       <Kinesiologie />

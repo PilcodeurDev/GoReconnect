@@ -1,22 +1,52 @@
-footer{
-  height: 10rem;
+footer {
+  height: 15rem;
   display: flex;
   justify-content: space-between;
   padding: 1rem 5rem;
   text-align: center;
 }
 
-.logoKa25{
+.textCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 16px;
+}
+
+.lienNavigation{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+
+  > div {
+    padding: .3rem;
+  }
+}
+
+.lienCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.lienCenter > div > span {
+  margin-right: 0.5rem;
+}
+
+.logoKa25 {
   width: 3rem;
   height: 3rem;
 }
 
-.logos{
+.logos {
   display: flex;
+  gap: 1.3rem;
 
-  img{
+  img {
     width: 70px;
     height: 70px;
-    margin: 0 10px;
   }
 }

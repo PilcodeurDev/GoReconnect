@@ -48,10 +48,12 @@ h2 {
 }
 
 .lien {
-  font-style: italic;
-  color: rgb(30, 95, 218);
+  color: #0d9488;
+  text-decoration: none;
+  font-family: montserrat-bold;
+  /* color: white;
   text-decoration: underline;
-  text-underline-offset: 3px ;
+  text-underline-offset: 3px ; */
 }
 
 @font-face {

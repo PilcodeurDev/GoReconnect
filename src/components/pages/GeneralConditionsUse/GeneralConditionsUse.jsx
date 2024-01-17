@@ -21,9 +21,9 @@ export default function GeneralConditionsUse() {
       <div className="container">
         <div className="gConditions">
           <h1>Conditions Générales d'Utilisation</h1>
-
+          <h3>En vigeur au 17/01/2024</h3>
           <p>
-            En vigueur au 02/10/2023 Les présentes conditions générales
+            Les présentes conditions générales
             d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique
             des modalités de mise à disposition du site et des services par{" "}
             {legalData[0].site} - {legalData[2].owner} et de définir les

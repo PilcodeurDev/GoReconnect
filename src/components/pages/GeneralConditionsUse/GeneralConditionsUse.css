@@ -1,3 +1,9 @@
 .gConditions{
   margin: 4rem auto !important;
+
+}
+
+h1 + h3 {
+  margin: 2rem;
+  text-decoration-line: underline;
 }

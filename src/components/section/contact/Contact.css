@@ -1,0 +1,37 @@
+#contact {
+
+  .container{
+    max-width: 1300px;
+  }
+
+  .row{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.informations{
+  h3{
+    text-decoration: underline;
+    padding-bottom: 2rem;
+  }
+  div {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.icon > img,svg{
+  width: 35px;
+  height: 35px;
+}
+
+.map{
+  width: 800px;
+  height: 500px;
+  background: #000;
+}

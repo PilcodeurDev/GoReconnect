@@ -2,8 +2,8 @@
  * The internal imports
  */
 import "./QuiJeSuis.css";
-import { alix } from "../../assets/index";
-import QuiJeSuisButton from "../button/QuiJeSuisButton";
+import { alix } from "../../../assets/index";
+import QuiJeSuisButton from "../../button/QuiJeSuisButton";
 
 export default function QuiJeSuis() {
 const pathBtn = "/#";

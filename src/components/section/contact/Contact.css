@@ -1,0 +1,37 @@
+#contact {
+  .container {
+    max-width: 1500px;
+  }
+
+  .row {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.informations {
+  h3 {
+    text-decoration: underline;
+    padding-bottom: 2rem;
+  }
+  div {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.icon > img,
+svg {
+  width: 35px;
+  height: 35px;
+}
+
+.googleMap {
+  width: 55rem;
+  height: 30rem;
+  background: #000;
+}

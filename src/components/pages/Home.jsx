@@ -1,10 +1,11 @@
 /**
  * The external imports
  */
-import Banner from "../banner/Banner";
-import Kinesiologie from "../kinesiologie/Kinesiologie";
-import QuiJeSuis from "../quiJeSuis/QuiJeSuis";
-import Reservation from "../reservation/reservation";
+import Banner from "../section/banner/Banner";
+import Kinesiologie from "../section/kinesiologie/Kinesiologie";
+import QuiJeSuis from "../section/quiJeSuis/QuiJeSuis";
+import Reservation from "../section/reservation/reservation";
+import Contact from "../section/contact/Contact"
 
 /**
  * The internal imports
@@ -18,6 +19,7 @@ export default function Home() {
       </header>
       <Kinesiologie />
       <QuiJeSuis />
+      <Contact />
       <Reservation />
     </>
   );

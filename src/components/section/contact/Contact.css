@@ -1,10 +1,9 @@
 #contact {
-
-  .container{
-    max-width: 1300px;
+  .container {
+    max-width: 1500px;
   }
 
-  .row{
+  .row {
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -12,8 +11,8 @@
   }
 }
 
-.informations{
-  h3{
+.informations {
+  h3 {
     text-decoration: underline;
     padding-bottom: 2rem;
   }
@@ -25,13 +24,14 @@
   }
 }
 
-.icon > img,svg{
+.icon > img,
+svg {
   width: 35px;
   height: 35px;
 }
 
-.map{
-  width: 800px;
-  height: 500px;
+.googleMap {
+  width: 55rem;
+  height: 30rem;
   background: #000;
 }

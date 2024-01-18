@@ -6,17 +6,16 @@ import { Link } from "react-router-dom";
 import { fbk, insta, logo, whatsApp } from "../../../assets";
 
 export default function Footer() {
-
-    const PilcodeurDev = (
-      <a
-        href="https://my-visual-impact-prod-a80de0f47f5b.herokuapp.com/"
-        target="_blank"
-        rel="noreferrer"
-        className="lien"
-      >
-        PilcodeurDev
-      </a>
-    );
+  const PilcodeurDev = (
+    <a
+      href="https://my-visual-impact-prod-a80de0f47f5b.herokuapp.com/"
+      target="_blank"
+      rel="noreferrer"
+      className="lien"
+    >
+      PilcodeurDev
+    </a>
+  );
 
   return (
     <footer>
@@ -42,6 +41,11 @@ export default function Footer() {
           <div>
             <Link to="/#quiJeSuis" className="lien">
               Qui suis-je ?
+            </Link>
+          </div>
+          <div>
+            <Link to="/#contact" className="lien">
+              Contact
             </Link>
           </div>
           <div>

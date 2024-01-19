@@ -4,7 +4,7 @@
 import "./Kinesiologie.css";
 import { main } from "../../../assets";
 
-export default function kinesiologie() {
+export default function Kinesiologie() {
   return (
     <section id="laKinesiologie">
       <div className="container">

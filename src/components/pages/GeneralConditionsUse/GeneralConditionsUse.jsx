@@ -2,19 +2,11 @@
  * The internal imports
  */
 import "./GeneralConditionsUse.css";
+import { DataContext } from "../../../context/DataProvider";
+import { useContext } from "react";
 
 export default function GeneralConditionsUse() {
-  const legalData = [
-    { site: "Kinésiologie Animalière 25" },
-    { url: " https://www.kinesiologie-animaliere-25.fr" },
-    { owner: " Alix Lucidarme" },
-    { adressOwner: "32 Bis rue de l'Etang, 25560 Frasne" },
-    { phoneOwner: "+33 668352377" },
-    { host: "Wix Online Platform Limited" },
-    { adressHost: "1 Grant’s Row, Dublin 2 D02HX96, Ireland" },
-    { phoneHost: "(+1) 415 358 0857" },
-    { emailOwner: "kinesiologieanimaliere25@gmail.com" },
-  ];
+  const { owner, host } = useContext(DataContext);
 
   return (
     <section>
@@ -23,12 +15,11 @@ export default function GeneralConditionsUse() {
           <h1>Conditions Générales d'Utilisation</h1>
           <h3>En vigeur au 17/01/2024</h3>
           <p>
-            Les présentes conditions générales
-            d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique
-            des modalités de mise à disposition du site et des services par{" "}
-            {legalData[0].site} - {legalData[2].owner} et de définir les
-            conditions d’accès et d’utilisation des services par « l'Utilisateur
-            ».
+            Les présentes conditions générales d'utilisation (dites « CGU ») ont
+            pour objet l'encadrement juridique des modalités de mise à
+            disposition du site et des services par {owner.site} - {owner.name}{" "}
+            et de définir les conditions d’accès et d’utilisation des services
+            par « l'Utilisateur ».
           </p>
           <p>
             Les présentes CGU sont accessibles sur le site à la rubrique «CGU».
@@ -36,27 +27,25 @@ export default function GeneralConditionsUse() {
           <h3>Article 1 : Les mentions légales</h3>
           <p>
             L’édition et la direction de la publication du site
-            {legalData[1].url} est assurée par {legalData[2].owner}, domiciliée{" "}
-            {legalData[3].adressOwner}. Elle est joignable par ces deux biais :
-            Numéro de téléphone {legalData[4].phoneOwner} ; Adresse e-mail{" "}
-            {legalData[8].emailOwner}.
+            {owner.url} est assurée par {owner.name}, domiciliée {owner.adress}.
+            Elle est joignable par ces deux biais : Numéro de téléphone{" "}
+            {owner.phone} ; Adresse e-mail : {owner.email}.
           </p>
           <p>
-            L'hébergeur du site {legalData[1].url} est la société{" "}
-            {legalData[5].host}, dont le siège social est situé au{" "}
-            {legalData[6].adressHost}, avec le numéro de téléphone suivant :{" "}
-            {legalData[7].phoneHost}.
+            L'hébergeur du site {owner.url} est la société {host.name}, dont le
+            siège social est situé au {host.adress}, avec le numéro de téléphone
+            suivant : {host.phone}.
           </p>
           <h3>ARTICLE 2 : Accès au site</h3>
           <p>
-            Le site {legalData[1].url} permet à l'Utilisateur un accès gratuit
-            aux services suivants : Consultations de {legalData[0].site} (en
-            présentiel et en distanciel), consultations de communication animale
-            (à distance), formation en ligne (Communication animale). Le site
-            est accessible gratuitement en tout lieu à tout Utilisateur ayant un
-            accès à Internet. Tous les frais supportés par l'Utilisateur pour
-            accéder au service (matériel informatique, logiciels, connexion
-            Internet, etc.) sont à sa charge.
+            Le site {owner.url} permet à l'Utilisateur un accès gratuit aux
+            services suivants : Consultations de {owner.site} (en présentiel et
+            en distanciel), consultations de communication animale (à distance),
+            formation en ligne (Communication animale). Le site est accessible
+            gratuitement en tout lieu à tout Utilisateur ayant un accès à
+            Internet. Tous les frais supportés par l'Utilisateur pour accéder au
+            service (matériel informatique, logiciels, connexion Internet, etc.)
+            sont à sa charge.
           </p>
           <h3>ARTICLE 3 : Collecte des données</h3>
           <p>
@@ -99,14 +88,14 @@ export default function GeneralConditionsUse() {
           <h3>ARTICLE 5 : Responsabilité</h3>
           <p>
             Les sources des informations diffusées sur le site
-            {legalData[1].url} sont réputées fiables mais le site ne garantit
-            pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.
+            {owner.url} sont réputées fiables mais le site ne garantit pas qu’il
+            soit exempt de défauts, d’erreurs ou d’omissions.
           </p>
           <p>
             Les informations communiquées sont présentées à titre indicatif et
             général sans valeur contractuelle. Malgré des mises à jour
-            régulières, le site {legalData[1].url} ne peut être tenu responsable
-            de la modification des dispositions administratives et juridiques
+            régulières, le site {owner.url} ne peut être tenu responsable de la
+            modification des dispositions administratives et juridiques
             survenant après la publication.
           </p>
           <p>
@@ -114,10 +103,10 @@ export default function GeneralConditionsUse() {
             de l’interprétation de l’information contenue dans ce site.
           </p>
           <p>
-            Le site {legalData[1].url} ne peut être tenu pour responsable
-            d’éventuels virus qui pourraient infecter l’ordinateur ou tout
-            matériel informatique de l’Internaute, suite à une utilisation, à
-            l’accès, ou au téléchargement provenant de ce site.
+            Le site {owner.url} ne peut être tenu pour responsable d’éventuels
+            virus qui pourraient infecter l’ordinateur ou tout matériel
+            informatique de l’Internaute, suite à une utilisation, à l’accès, ou
+            au téléchargement provenant de ce site.
           </p>
           <p>
             La responsabilité du site ne peut être engagée en cas de force
@@ -127,9 +116,9 @@ export default function GeneralConditionsUse() {
           <p>
             Des liens hypertextes peuvent être présents sur le site.
             L’Utilisateur est informé qu’en cliquant sur ces liens, il sortira
-            du site {legalData[1].url}. Ce dernier n’a pas de contrôle sur les
-            pages web sur lesquelles aboutissent ces liens et ne saurait, en
-            aucun cas, être responsable de leur contenu.
+            du site {owner.url}. Ce dernier n’a pas de contrôle sur les pages
+            web sur lesquelles aboutissent ces liens et ne saurait, en aucun
+            cas, être responsable de leur contenu.
           </p>
           <h3>ARTICLE 7 : Cookies</h3>
           <p>
@@ -141,7 +130,7 @@ export default function GeneralConditionsUse() {
             Les cookies sont de petits fichiers stockés temporairement sur le
             disque dur de l’ordinateur de l’Utilisateur par votre navigateur et
             qui sont nécessaires à l’utilisation du site
-            {legalData[1].url}.
+            {owner.url}.
           </p>
           <p>
             Les cookies ne contiennent pas d’information personnelle et ne
@@ -152,7 +141,7 @@ export default function GeneralConditionsUse() {
           </p>
           <p>
             L’information contenue dans les cookies est utilisée pour améliorer
-            le site {legalData[1].url}.
+            le site {owner.url}.
           </p>
           <p>
             En naviguant sur le site, L’Utilisateur les accepte. L’Utilisateur

@@ -36,8 +36,8 @@ export default function Kinesiologie() {
               <p>
                 L'objectif n'est pas de se concentrer sur le problème en tant
                 que tel (ex: réaction aux congénères) mais plutôt de chercher
-                l'origine : "Qu'est ce qui a engendré ce blocage émotionnel,
-                dans la vie de cet animal ?"
+                l'origine : " Qu'est ce qui a engendré ce blocage émotionnel,
+                dans la vie de cet animal ? ".
               </p>
               <p>
                 Une fois trouvée, je vais laisser la mémoire de l'évènement en

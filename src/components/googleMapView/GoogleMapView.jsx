@@ -17,6 +17,7 @@ const MyGoogleMapView = () => {
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: import.meta.env.VITE_REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries,
+    onError: (error) => console.error("Error loading maps:", error),
   });
 
   if (loadError) {

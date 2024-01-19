@@ -1,7 +1,7 @@
 /**
  * The external imports
  */
-import Banner from "../section/banner/banner";
+import Banner from "../section/banner/Banner";
 import Kinesiologie from "../section/kinesiologie/kinesiologie";
 import QuiJeSuis from "../section/quiJeSuis/quiJeSuis";
 import Reservation from "../section/reservation/reservation";

@@ -2,6 +2,7 @@
  * The internal imports
  */
 import "./Kinesiologie.css";
+import { main } from "../../../assets";
 
 export default function kinesiologie() {
   return (
@@ -18,7 +19,7 @@ export default function kinesiologie() {
                   l'inconscient.
                 </i>
               </p>
-              <div className="imgLaKinesiologie"></div>
+              <img src={main} alt="main touchant du doigt de l'eau" />
               <p>
                 Un animal qui développe une problématique, qu'elle soit physique
                 (dont le vétérinaire ne trouve pas l'origine), psychologique,

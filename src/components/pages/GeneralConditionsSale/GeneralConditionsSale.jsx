@@ -2,16 +2,11 @@
  * The internal imports
  */
 import "./GeneralConditionsSale.css";
+import { DataContext } from "../../../context/DataProvider";
+import { useContext } from "react";
 
 export default function GeneralConditionsSale() {
-  const legalData = [
-    { url: "https://www.kinesiologie-animaliere-25.fr" },
-    { owner: "Alix Lucidarme" },
-    { adressOwner: "32 Bis rue de l'Etang, 25560 Frasne" },
-    { phoneOwner: "+33 668352377" },
-    { siretNumber: "87866319400024" },
-    { email: "kinesiologieanimaliere25@gmail.com" },
-  ];
+  const { owner } = useContext(DataContext);
 
   return (
     <section>
@@ -26,11 +21,11 @@ export default function GeneralConditionsSale() {
             de suivants : séances de kinésiologie animalière à distance,
             formation en ligne (communication animale), tels que proposés par le
             Prestataire aux clients non professionnels (« Les Clients ou le
-            Client ») sur le site {legalData[0].url}.
+            Client ») sur le site {owner.url}.
           </p>
           <p>
             Les caractéristiques principales des Services sont présentées sur le
-            site internet {legalData[0].url}.
+            site internet {owner.url}.
           </p>
           <p>
             Le Client est tenu d'en prendre connaissance avant toute passation
@@ -39,13 +34,13 @@ export default function GeneralConditionsSale() {
           </p>
           <p>
             Ces CGV sont accessibles à tout moment sur le site
-            {legalData[0].url} et prévaudront sur toute autre document.
+            {owner.url} et prévaudront sur toute autre document.
           </p>
           <p>
             Le Client déclare avoir pris connaissance des présentes CGV et les
             avoir acceptées en cochant la case prévue à cet effet avant la mise
             en œuvre de la procédure de commande en ligne du site
-            {legalData[0].url}.
+            {owner.url}.
           </p>
           <p>
             Sauf preuve contraire, les données enregistrées dans le système
@@ -54,23 +49,23 @@ export default function GeneralConditionsSale() {
           </p>
           <p>Les coordonnées du Prestataire sont les suivantes :</p>
           <ul>
-            <li>{legalData[1].owner}</li>
-            <li>{legalData[2].adressOwner}</li>
-            <li>Siret : {legalData[4].siretNumber}</li>
-            <li>e-mail : {legalData[5].email}</li>
-            <li>{legalData[3].phoneOwner}</li>
+            <li>{owner.name}</li>
+            <li>{owner.adress}</li>
+            <li>Siret : {owner.siretNumber}</li>
+            <li>e-mail : {owner.email}</li>
+            <li>{owner.phone}</li>
           </ul>
           <h3>ARTICLE 2 - Prix</h3>
           <p>
             Les Services sont fournis aux tarifs en vigueur figurant sur le site{" "}
-            {legalData[0].url}, lors de l'enregistrement de la commande par le
+            {owner.url}, lors de l'enregistrement de la commande par le
             Prestataire.
           </p>
           <p>
             Les prix sont exprimés en Euros, HT et TTC. Le prestataire n'est pas
             assujetti à la TVA. Les tarifs tiennent compte d'éventuelles
             réductions qui seraient consenties par le Prestataire sur le site
-            {legalData[0].url}.
+            {owner.url}.
           </p>
           <p>
             Ces tarifs sont fermes et non révisables pendant leur période de
@@ -85,12 +80,12 @@ export default function GeneralConditionsSale() {
           </p>
           <h3>ARTICLE 3 – Commandes</h3>
           <p>
-            Il appartient au Client de sélectionner sur le site{" "}
-            {legalData[0].url} les Services qu'il désire commander, selon les
-            modalités suivantes : Pour les séances de kinésiologie à distance :
-            le client regarde l'agenda en ligne de Calendly, choisi un créneau
-            disponible. Il rentre les coordonnées et informations demandées, il
-            règle la séance lors de cette réservation.
+            Il appartient au Client de sélectionner sur le site {owner.url} les
+            Services qu'il désire commander, selon les modalités suivantes :
+            Pour les séances de kinésiologie à distance : le client regarde
+            l'agenda en ligne de Calendly, choisi un créneau disponible. Il
+            rentre les coordonnées et informations demandées, il règle la séance
+            lors de cette réservation.
           </p>
           <p>
             Pour la formation en ligne : le client a accès à la page de vente,
@@ -106,8 +101,8 @@ export default function GeneralConditionsSale() {
           </p>
           <p>
             Toute commande passée sur le site
-            {legalData[0].url} constitue la formation d'un contrat conclu à
-            distance entre le Client et le Prestataire.
+            {owner.url} constitue la formation d'un contrat conclu à distance
+            entre le Client et le Prestataire.
           </p>
           <p>
             Le Prestataire se réserve le droit d'annuler ou de refuser toute
@@ -127,8 +122,7 @@ export default function GeneralConditionsSale() {
           <p>
             Les données de paiement sont sont échangées en mode crypté grâce au
             protocole défini par le prestataire de paiement agréé intervenant
-            pour les transactions bancaires réalisées sur le site{" "}
-            {legalData[0].url}.
+            pour les transactions bancaires réalisées sur le site {owner.url}.
           </p>
           <p>
             Les paiements effectués par le Client ne seront considérés comme
@@ -154,7 +148,7 @@ export default function GeneralConditionsSale() {
             validation définitive de la commande du Client, dans les conditions
             prévues aux présentes CGV à l'adresse indiquée par le Client lors de
             sa commande sur le site
-            {legalData[0].url} .
+            {owner.url} .
           </p>
           <p>
             Le Prestataire s'engage à faire ses meilleurs efforts pour fournir
@@ -270,7 +264,7 @@ export default function GeneralConditionsSale() {
             jurisprudence française.
           </p>
           <p>
-            Les Services fournis par l'intermédiaire du site {legalData[0].url}
+            Les Services fournis par l'intermédiaire du site {owner.url}
             du Prestataire sont conformes à la réglementation en vigueur en
             France. La responsabilité du Prestataire ne saurait être engagée en
             cas de non respect de la législation du pays dans lequel les
@@ -290,7 +284,7 @@ export default function GeneralConditionsSale() {
           </span>
           <p>
             Les données à caractère personnel qui sont collectées sur le site{" "}
-            {legalData[0].url} sont les suivantes :
+            {owner.url} sont les suivantes :
           </p>
           <span className="bold">- Ouverture de compte</span>
           <p>
@@ -301,9 +295,8 @@ export default function GeneralConditionsSale() {
           <span className="bold">-Paiement</span>
           <p>
             Dans le cadre du paiement des Prestations proposés sur le site
-            {legalData[0].url}, celui-ci enregistre des données financières
-            relatives au compte bancaire ou à la carte de crédit du Client /
-            utilisateur.
+            {owner.url}, celui-ci enregistre des données financières relatives
+            au compte bancaire ou à la carte de crédit du Client / utilisateur.
           </p>
           <span className="underline">
             8.2 Destinataires des données à caractère personnel
@@ -345,7 +338,7 @@ export default function GeneralConditionsSale() {
           <p>
             En application de la règlementation applicable aux données à
             caractère personnel, les Clients et utilisateurs du site
-            {legalData[0].url} disposent des droits suivants :
+            {owner.url} disposent des droits suivants :
           </p>
           <p>
             -Ils peuvent mettre à jour ou supprimer les données qui les
@@ -365,7 +358,8 @@ export default function GeneralConditionsSale() {
           <p>
             -Si les données à caractère personnel détenues par le Prestataire
             sont inexactes, ils peuvent demander la mise à jour des informations
-            des informations en écrivant à l’adresse indiqué à l’article 1, les coordonnées du Prestataire.
+            des informations en écrivant à l’adresse indiqué à l’article 1, les
+            coordonnées du Prestataire.
           </p>
           <p>
             -Ils peuvent demander la suppression de leurs données à caractère
@@ -407,8 +401,8 @@ export default function GeneralConditionsSale() {
           </p>
           <h3>ARTICLE 9 - Propriété intellectuelle</h3>
           <p>
-            Le contenu du site {legalData[0].url} est la propriété du Vendeur et
-            de ses partenaires et est protégé par les lois françaises et
+            Le contenu du site {owner.url} est la propriété du Vendeur et de ses
+            partenaires et est protégé par les lois françaises et
             internationales relatives à la propriété intellectuelle.
           </p>
           <p>
@@ -447,8 +441,8 @@ export default function GeneralConditionsSale() {
           </p>
           <p>
             Le Client est également informé qu’il peut, également recourir à la
-            plateforme de Règlement en Ligne des Litige (RLL)
-            : https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show
+            plateforme de Règlement en Ligne des Litige (RLL) :
+            https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show
           </p>
           <p>
             Tous les litiges auxquels les opérations d'achat et de vente

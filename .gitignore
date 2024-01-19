@@ -25,3 +25,6 @@ dist-ssr
 
 # Api keys
 .env*
+
+# Local Netlify folder
+.netlify

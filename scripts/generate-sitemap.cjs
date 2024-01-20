@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 const SitemapGenerator = require('sitemap-generator');
 
 // Remplacez l'URL ci-dessous par l'URL de votre site

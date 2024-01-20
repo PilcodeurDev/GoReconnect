@@ -1,8 +1,17 @@
 /**
+ * The external imports
+ */
+import AOS from "aos";
+
+
+/**
  * The internal imports
  */
 import "./Banner.css";
 import { alixAndShiba } from "../../../assets";
+
+
+AOS.init();
 
 export default function Banner() {
   return (

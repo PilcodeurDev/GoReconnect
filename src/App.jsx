@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 /**
  * The internal imports
  */
+import './styles/colors.css';
 import Home from "./components/pages/Home";
 import GeneralConditionsSale from "./components/pages/GeneralConditionsSale/GeneralConditionsSale";
 import GeneralConditionsUse from "./components/pages/GeneralConditionsUse/GeneralConditionsUse";

@@ -7,17 +7,12 @@
 }
 
 :root {
-  font-family: montserrat;
-  line-height: 1.6;
-  font-size: 20px;
-
-  color: #cecece;
-  background-color: #1c1e22;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: montserrat;
 }
 
 body {
@@ -25,10 +20,6 @@ body {
   min-height: 100vh;
 }
 
-i {
-  font-family: montserrat-italic;
-  font-size: 1.2rem;
-}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,23 +29,40 @@ section {
   padding: 6rem 0;
 }
 
-section:nth-child(odd) {
-  background-color: #1c1c1c;
-}
-
 h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
+/*
+  buttons and liens
+*/
+
+.mainButton {
+  background: var(--main-color);
+  color: white !important;
+  border: none;
+  border-radius: 2rem;
+  padding: .75rem 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.mainButton:hover {
+  background: var(--secondary-color);
+}
+
+
 .lien {
   color: #0d9488;
   text-decoration: none;
   font-family: montserrat-bold;
-  /* color: white;
-  text-decoration: underline;
-  text-underline-offset: 3px ; */
 }
+
+/*
+  Font-family
+*/
 
 @font-face {
   font-family: alexBrush;

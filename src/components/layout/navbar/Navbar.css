@@ -4,8 +4,32 @@ nav {
   justify-content: space-between;
   padding: 10px 60px 10px 80px;
   position: fixed;
-  background: #1c1c1c;
+  background-color: var(--bg-color);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   z-index: 10;
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.logo{
+  width: 130px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1rem;
+  background: var(--main-color);
+  border-radius: 25%;
+  gap: .5rem;
+
+  span {
+    margin: 0;
+    font-family: montserrat-bold;
+    font-size: 1.2rem;
+  }
 }
 
 .navButton {
@@ -14,9 +38,8 @@ nav {
   gap: 40px;
   font-size: larger;
   font-weight: 800;
-  color: #0d9488;
   a {
     text-decoration: none;
-    color: #0d9488;
+    color: var(--text-color);
   }
 }

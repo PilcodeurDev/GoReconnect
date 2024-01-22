@@ -5,7 +5,8 @@ footer {
   justify-content: space-between;
   padding: 1rem 5rem;
   text-align: center;
-  background: #1c1c1c;
+  background: var(--bg-color);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
 }
 
 .textCenter {

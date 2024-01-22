@@ -45,6 +45,7 @@ export default function Kinesiologie() {
                 associée.
               </p>
             </div>
+            <button className="mainButton">Réserver</button>
           </div>
         </div>
       </div>

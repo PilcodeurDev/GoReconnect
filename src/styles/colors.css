@@ -1,0 +1,21 @@
+/* Permet de changer les couleurs de plusieurs element en même temps */
+
+/*
+Couleur principal: #F25C54
+Couleur secondaire: #f7b267ff
+Couleur contrast: #54eaf2
+ */
+:root {
+  --bg-color: #f7feff;
+  --text-color: #012023;
+
+  --main-color: linear-gradient(0deg, #f25c54 , #f7b267ff );
+  --main-color-reverse: linear-gradient(180deg, #f25c54 , #f7b267ff );
+  --secondary-color: #f27059;
+
+  --main-color-contrast: #3f98B5;
+  --main-color-contrast-deux: #90D3FC;
+
+  background: var(--bg-color);
+  color: var(--text-color);
+}

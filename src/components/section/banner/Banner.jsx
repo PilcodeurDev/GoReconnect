@@ -15,7 +15,7 @@ AOS.init();
 
 export default function Banner() {
   return (
-    <section>
+    <section id="banner">
       <div className="container">
         <div className="banner">
           <img src={alixAndShiba} alt="Alix et Shiba" />

@@ -18,7 +18,7 @@ export default function navbar() {
             <img src={grLogo} alt="logo Go Reconnect" />
           </Link>
         </div>
-        <div className="text">
+        <div className="title">
           <span>Go Reconnect</span>
         </div>
       </div>

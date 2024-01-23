@@ -1,5 +1,4 @@
 .banner {
-  margin-top: 7rem;
   height: 60rem;
   position: relative;
 
@@ -16,7 +15,7 @@
     font-size: 8rem;
     font-family: alexBrush;
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 30%;
     z-index: 1;
   }

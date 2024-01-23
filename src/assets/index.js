@@ -6,6 +6,7 @@ import logo from "./logo_ka_25.jpg";
 import main from "./main.webp";
 import whatsApp from "./WhatsAppLogo.png";
 import logoGR from "./logoGR.png";
+import grLogo from "./grLogo.png";
 
 
-export { alix, logo, fbk, insta, whatsApp, main, banner, logoGR };
+export { alix, logo, fbk, insta, whatsApp, main, banner, logoGR, grLogo };

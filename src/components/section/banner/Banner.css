@@ -10,14 +10,4 @@
     object-position: center;
     position: absolute;
   }
-
-  h1 {
-    color: white;
-    font-size: 8rem;
-    font-family: alexBrush;
-    position: absolute;
-    top: 25%;
-    right: 30%;
-    z-index: 1;
-  }
 }

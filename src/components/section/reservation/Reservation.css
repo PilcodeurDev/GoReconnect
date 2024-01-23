@@ -10,9 +10,8 @@
 }
 
 .choice a{
-  position: relative;
   text-decoration: none;
-  color: #CECECE;
+  color: var(--text-color);
   font-family: montserrat-bold;
 }
 

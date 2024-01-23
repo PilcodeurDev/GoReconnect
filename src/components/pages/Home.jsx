@@ -14,13 +14,13 @@ import Contact from "../section/contact/Contact";
 export default function Home() {
   return (
     <>
-      <header id="moveUp">
-        <Banner />
-      </header>
-      <Kinesiologie />
-      <QuiJeSuis />
-      <Contact />
-      <Reservation />
+      <Banner />
+      <div className="container">
+        <Kinesiologie />
+        <QuiJeSuis />
+        <Contact />
+        <Reservation />
+      </div>
     </>
   );
 }

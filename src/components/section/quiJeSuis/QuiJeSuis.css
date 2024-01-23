@@ -2,17 +2,6 @@
   position: relative;
 }
 
-/* .container::after {
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 100%;
-  left: 62%;
-  bottom: 0px;
-  background-color: #565656;
-  z-index: -1;
-} */
-
 .row {
   margin-top: 4rem;
   width: 100%;
@@ -41,7 +30,6 @@
 
 .sub-title {
   padding: 2rem 0 2rem 0;
-  background: #1d1e22;
 
   h3 {
     font-size: 0.8rem;

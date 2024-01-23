@@ -50,7 +50,7 @@ export default function GeneralConditionsSale() {
           <p>Les coordonnées du Prestataire sont les suivantes :</p>
           <ul>
             <li>{owner.name}</li>
-            <li>{owner.adress}</li>
+            <li>{owner.address}</li>
             <li>Siret : {owner.siretNumber}</li>
             <li>e-mail : {owner.email}</li>
             <li>{owner.phone}</li>

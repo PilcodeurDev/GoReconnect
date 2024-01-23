@@ -10,8 +10,8 @@ nav {
 }
 
 .logo{
-  width: 6rem;
-  height: 6rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +34,7 @@ nav {
   display: flex;
   margin: 10px 30px;
   gap: 40px;
-  font-size: 24px;
+  font-size: 1.1;
   font-weight: 800;
   a {
     text-decoration: none;
@@ -44,7 +44,7 @@ nav {
 
 .text{
   font-family: montserrat-bold;
-  font-size: 2.8rem;
+  font-size: 1.2rem;
   color: #ffffff;
 }
 

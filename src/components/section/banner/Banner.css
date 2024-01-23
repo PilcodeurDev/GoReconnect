@@ -1,5 +1,6 @@
 .banner {
-  height: 60rem;
+  height: 80vh;
+  min-width: 100vh;
   position: relative;
 
   img {

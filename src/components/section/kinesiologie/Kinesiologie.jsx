@@ -7,7 +7,6 @@ import { main } from "../../../assets";
 export default function Kinesiologie() {
   return (
     <section id="laKinesiologie">
-      <div>
         <h2> C'est quoi la kinésiologie ?</h2>
         <div className="textImage">
           <div className="text">
@@ -46,7 +45,6 @@ export default function Kinesiologie() {
           </div>
           <button className="mainButton">Réserver</button>
         </div>
-      </div>
     </section>
   );
 }

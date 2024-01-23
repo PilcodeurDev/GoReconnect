@@ -14,9 +14,7 @@ import Contact from "../section/contact/Contact";
 export default function Home() {
   return (
     <>
-      <header id="moveUp">
-        <Banner />
-      </header>
+      <Banner />
       <div className="container">
         <Kinesiologie />
         <QuiJeSuis />

@@ -27,13 +27,13 @@ export default function GeneralConditionsUse() {
           <h3>Article 1 : Les mentions légales</h3>
           <p>
             L’édition et la direction de la publication du site
-            {owner.url} est assurée par {owner.name}, domiciliée {owner.adress}.
+            {owner.url} est assurée par {owner.name}, domiciliée {owner.address}.
             Elle est joignable par ces deux biais : Numéro de téléphone{" "}
             {owner.phone} ; Adresse e-mail : {owner.email}.
           </p>
           <p>
             L'hébergeur du site {owner.url} est la société {host.name}, dont le
-            siège social est situé au {host.adress}, avec le numéro de téléphone
+            siège social est situé au {host.address}, avec le numéro de téléphone
             suivant : {host.phone}.
           </p>
           <h3>ARTICLE 2 : Accès au site</h3>

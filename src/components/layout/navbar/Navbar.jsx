@@ -19,7 +19,7 @@ export default function navbar() {
           </Link>
         </div>
         <div className="text">
-          <p>Go Reconnect</p>
+          <span>Go Reconnect</span>
         </div>
       </div>
       <div className="navButton">

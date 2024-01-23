@@ -1,8 +1,6 @@
 /**
  * The external imports
  */
-import AOS from "aos";
-
 
 /**
  * The internal imports
@@ -10,16 +8,13 @@ import AOS from "aos";
 import "./Banner.css";
 import { alixAndShiba } from "../../../assets";
 
-
-AOS.init();
-
 export default function Banner() {
   return (
     <section id="banner">
       <div className="container">
         <div className="banner">
           <img src={alixAndShiba} alt="Alix et Shiba" />
-          <h1>Kinésiologie Animanière 25</h1>
+          <h1>Go Reconnect</h1>
         </div>
       </div>
     </section>

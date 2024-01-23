@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
  * The internal imports
  */
 import "./Navbar.css";
-import { logoGR } from "../../../assets";
+import { testun } from "../../../assets";
 
 export default function navbar() {
   return (
     <nav>
-      <div>
+      <div className="logo">
         <Link to="/#moveUp">
-          <img src={logoGR} alt= "logo entreprise" />
+          <img src={testun} alt= "logo entreprise" />
         </Link>
       </div>
       <div className="navButton">

@@ -17,10 +17,12 @@ export default function Home() {
       <header id="moveUp">
         <Banner />
       </header>
-      <Kinesiologie />
-      <QuiJeSuis />
-      <Contact />
-      <Reservation />
+      <div className="container">
+        <Kinesiologie />
+        <QuiJeSuis />
+        <Contact />
+        <Reservation />
+      </div>
     </>
   );
 }

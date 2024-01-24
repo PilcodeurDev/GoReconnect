@@ -2,64 +2,81 @@ footer {
   height: 15rem;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: 2rem 3rem;
   text-align: center;
   background: var(--bg-color);
-  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
 }
 
-.textCenter {
+.links {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  margin: 0;
-
-  div{
-    margin: 0;
-  }
 }
 
-.lienNavigation{
+.links .offset {
+  margin-right: 8.88rem;
+}
+
+.links .interne-link-buttons .link {
+  padding-left: 1rem;
+  display: inline-block;
+  gap: 10px;
+}
+
+.links .logo-goreconnect {
+  max-width: 5rem;
+}
+
+.links .social-logos {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-
-  > li {
-    padding-top: .3rem;
-    white-space: nowrap;
-    list-style: none;
-  }
 }
 
-.lienCenter {
+.links .social-logos a {
+  margin-left: 1rem;
+}
+
+.links .social-logos a img {
+  max-width: 4rem;
+}
+
+.central-links {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0;
 }
 
-.lienCenter > div > span {
+.central-links > div > span {
   margin-right: 0.5rem;
 }
 
-.logoKa25 {
-  max-width: 3rem;
+@media screen and (max-width: 1120px) {
+  .links .offset {
+  margin-right: 0;
+}
 }
 
-.logos {
-  display: flex;
-  gap: 1.3rem;
 
-  img {
-    width: 70px;
-    height: 70px;
+@media screen and (max-width: 1024px) {
+  .interne-link-buttons{
+    display: none;
   }
 }
 
 @media screen and (max-width: 840px) {
   footer{
     padding: 1rem 2rem;
+  }
+  .links .logo-goreconnect {
+    max-width: 4rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .links img {
+    width: 3rem;
   }
 }

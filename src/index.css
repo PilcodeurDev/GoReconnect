@@ -67,10 +67,6 @@ h2 {
   src: url(assets/fonts/Montserrat-Bold.ttf);
 }
 
-.layout-container {
-  max-width: 1200px;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;

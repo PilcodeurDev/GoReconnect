@@ -22,6 +22,7 @@ nav {
 
 .logoWebSite {
   display: flex;
+  align-items: center;
 }
 
 .title {

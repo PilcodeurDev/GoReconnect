@@ -13,8 +13,9 @@
   flex: 1;
 
   img {
-    width: 20rem;
-    margin-left: 6rem;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 1rem 0 6rem;
   }
 }
 

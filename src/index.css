@@ -11,18 +11,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-family: montserrat;
 }
 
 body {
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+  font-family: montserrat;
 }
 
 section {
@@ -43,7 +35,7 @@ h2 {
   color: white !important;
   border: 1px solid rgb(76, 34, 1);
   border-radius: 2rem;
-  padding: .75rem 1.6rem;
+  padding: 0.75rem 1.6rem;
   font-weight: 800;
   cursor: pointer;
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.427);
@@ -53,16 +45,11 @@ h2 {
   background: var(--secondary-color);
 }
 
-
 .lien {
   color: #0d9488;
   text-decoration: none;
   font-family: montserrat-bold;
 }
-
-/*
-  Font-family
-*/
 
 @font-face {
   font-family: alexBrush;
@@ -82,4 +69,20 @@ h2 {
 @font-face {
   font-family: montserrat-bold;
   src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+.layout-container {
+  max-width: 1200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

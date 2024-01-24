@@ -1,6 +1,6 @@
 .banner {
   height: 60vh;
-  min-width: 100vh;
+  width: 100vw;
   position: relative;
 
   img {
@@ -9,15 +9,5 @@
     object-fit: cover;
     object-position: center;
     position: absolute;
-  }
-
-  h1 {
-    color: white;
-    font-size: 8rem;
-    font-family: alexBrush;
-    position: absolute;
-    top: 25%;
-    right: 30%;
-    z-index: 1;
   }
 }

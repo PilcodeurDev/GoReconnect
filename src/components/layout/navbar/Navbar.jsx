@@ -10,7 +10,7 @@ import { CgCloseO } from "react-icons/cg";
  * The internal imports
  */
 import "./Navbar.css";
-import { grLogo } from "../../../assets";
+import { logo } from "../../../assets";
 
 export default function navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -20,7 +20,7 @@ export default function navbar() {
       <div className="logoWebSite">
         <div className="logo">
           <Link to="/#moveUp">
-            <img src={grLogo} alt="logo Go Reconnect" />
+            <img src={logo} alt="logo Go Reconnect" />
           </Link>
         </div>
         <div className="title">

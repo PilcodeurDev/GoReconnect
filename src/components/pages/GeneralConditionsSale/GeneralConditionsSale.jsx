@@ -48,7 +48,7 @@ export default function GeneralConditionsSale() {
             transactions conclues avec le Client.
           </p>
           <p>Les coordonnées du Prestataire sont les suivantes :</p>
-          <ul>
+          <ul className="CGS-info">
             <li>{owner.name}</li>
             <li>{owner.address}</li>
             <li>Siret : {owner.siretNumber}</li>

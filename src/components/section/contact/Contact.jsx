@@ -9,7 +9,7 @@ import { useContext } from "react";
  * The internal imports
  */
 import "./Contact.css";
-import { logoGR } from "../../../assets";
+import { logo } from "../../../assets";
 import GoogleMpaView from "../../googleMapView/GoogleMapView";
 import { DataContext } from "../../../context/DataProvider";
 
@@ -20,7 +20,7 @@ export default function Contact() {
   const legalData = [
     {
       value: owner.site,
-      icon: <img src={logoGR} alt="logo entreprise" />,
+      icon: <img src={logo} alt="logo entreprise" />,
     },
     { value: owner.name, icon: <FaUser /> },
     {

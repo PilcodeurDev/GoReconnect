@@ -3,7 +3,7 @@
  */
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import { fbk, insta, logo, whatsApp } from "../../../assets";
+import { fbk, insta, whatsApp, logo } from "../../../assets";
 
 export default function Footer() {
   const PilcodeurDev = (
@@ -22,37 +22,39 @@ export default function Footer() {
       <Link to="/#moveUp">
         <img
           src={logo}
-          alt="logo kinésiologie animalière 25"
+          alt="logo goreconnect"
           className="logoKa25"
         />
       </Link>
       <div className="textCenter">
-        <div className="lienNavigation">
-          <div>
-            <Link to="/#moveUp" className="lien">
-              Accueil
-            </Link>
-          </div>
-          <div>
-            <Link to="/#laKinesiologie" className="lien">
-              Mes prestations
-            </Link>
-          </div>
-          <div>
-            <Link to="/#quiJeSuis" className="lien">
-              Qui suis-je ?
-            </Link>
-          </div>
-          <div>
-            <Link to="/#contact" className="lien">
-              Contact
-            </Link>
-          </div>
-          <div>
-            <Link to="/#reservation" className="lien">
-              Rendez-vous
-            </Link>
-          </div>
+        <div>
+          <ul className="lienNavigation">
+            <li>
+              <Link to="/#moveUp" className="lien">
+                Accueil
+              </Link>
+            </li>
+            <li>
+              <Link to="/#laKinesiologie" className="lien">
+                Mes prestations
+              </Link>
+            </li>
+            <li>
+              <Link to="/#quiJeSuis" className="lien">
+                Qui suis-je ?
+              </Link>
+            </li>
+            <li>
+              <Link to="/#contact" className="lien">
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link to="/#reservation" className="lien">
+                Rendez-vous
+              </Link>
+            </li>
+          </ul>
         </div>
         <div className="lienCenter">
           <div>

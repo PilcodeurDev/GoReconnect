@@ -14,7 +14,10 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
-  font-size: 16px;
+
+  div{
+    margin: 0;
+  }
 }
 
 .lienNavigation{
@@ -23,8 +26,10 @@ footer {
   gap: 1.5rem;
   margin-top: 1rem;
 
-  > div {
-    padding: .3rem;
+  > li {
+    padding-top: .3rem;
+    white-space: nowrap;
+    list-style: none;
   }
 }
 
@@ -40,8 +45,7 @@ footer {
 }
 
 .logoKa25 {
-  width: 3rem;
-  height: 3rem;
+  max-width: 3rem;
 }
 
 .logos {
@@ -51,5 +55,11 @@ footer {
   img {
     width: 70px;
     height: 70px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  footer{
+    padding: 1rem 2rem;
   }
 }

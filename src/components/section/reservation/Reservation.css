@@ -21,7 +21,7 @@
   justify-content: space-around;
   margin: 4rem 0;
   padding: 1rem;
-  width: 400px;
+  max-width: 400px;
   height: 150px;
   border: 2px solid rgb(239, 239, 239);
   border-radius: 30px;

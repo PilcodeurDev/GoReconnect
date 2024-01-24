@@ -4,15 +4,19 @@ nav {
   justify-content: space-between;
   padding: 1.25rem 2.25rem;
   position: absolute;
+  /* navbar fixé au top sur l'écran */
+  /* position: fixed;
+  top: 0; */
   z-index: 10;
 }
 
 .navButton {
   display: flex;
-  margin: 10px 30px;
-  font-size: 1.1;
+  margin: 10px 0px 10px 30px;
   font-weight: 800;
   a {
+    display: flex;
+    align-items: center;
     margin-left: 1rem;
     text-decoration: none;
     color: #ffffff;
@@ -49,5 +53,63 @@ nav {
   img {
     width: 100%;
     padding: 0.5rem;
+  }
+}
+
+.menuBurger {
+  width: 3rem;
+  height: 3rem;
+  display: none;
+  color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  nav {
+    padding: 1.25rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .navButton {
+    display: none;
+  }
+
+  .menuBurger {
+    display: block;
+    margin: 1rem 2rem;
+    z-index: 20;
+
+    svg {
+      margin: 0;
+    }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+  }
+  
+  .showNavbar {
+    height: 45vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--main-color-contrast);
+    font-size: 2rem;
+
+    a{
+      font-weight: 800;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+
+  .hiddenNavbar{
+    display: none;
   }
 }

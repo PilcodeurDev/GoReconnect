@@ -4,6 +4,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: auto;
   padding: 2rem 3rem;
   text-align: center;
   background: var(--bg-color);

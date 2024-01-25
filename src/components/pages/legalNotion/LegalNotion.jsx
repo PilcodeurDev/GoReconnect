@@ -13,7 +13,7 @@ export default function LegalNotion() {
   const { owner, host } = useContext(DataContext);
 
   return (
-    <section>
+    <section className="legal-container">
       <div className="container notionsLegales">
         <h1>
           <strong>Mentions légales</strong>

@@ -1,3 +1,7 @@
-.notionsLegales{
+.legal-container {
+  min-height: 82vh;
+}
+
+.legal-container .notionsLegales{
   margin: 4rem auto !important;
 }

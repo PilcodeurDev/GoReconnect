@@ -68,13 +68,12 @@ h2 {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
   .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    max-width: 95%;
   }
 }

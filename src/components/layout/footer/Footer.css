@@ -54,15 +54,9 @@ footer {
   margin-right: 0.5rem;
 }
 
-@media screen and (max-width: 1120px) {
-  .links .offset {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .interne-link-buttons {
-    display: none;
+@media screen and (max-width: 640px) {
+  .links img {
+    width: 3rem;
   }
 }
 
@@ -75,8 +69,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 640px) {
-  .links img {
-    width: 3rem;
+@media screen and (max-width: 1024px) {
+  .interne-link-buttons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .links .offset {
+    margin-right: 0;
   }
 }

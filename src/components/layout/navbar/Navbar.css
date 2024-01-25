@@ -84,7 +84,7 @@ nav {
 
   .showNavbar {
     height: 45vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -95,14 +95,14 @@ nav {
     background: var(--main-color-contrast);
     font-size: 2rem;
 
-    a{
+    a {
       font-weight: 800;
       text-decoration: none;
       color: #ffffff;
     }
   }
 
-  .hiddenNavbar{
+  .hiddenNavbar {
     display: none;
   }
 }

@@ -17,7 +17,7 @@ export default function navbar() {
 
   return (
     <nav>
-      <div className="logoWebSite">
+      <div className="web-site-logo">
         <div className="logo">
           <Link to="/#moveUp">
             <img src={logo} alt="logo Go Reconnect" />
@@ -31,7 +31,7 @@ export default function navbar() {
         <Link to="/#laKinesiologie">La Kinésiologie</Link>
         <Link to="/#quiJeSuis">Qui Suis-Je</Link>
         <Link to="/#contact">Contact</Link>
-        <Link to="/#reservation" className="mainButton">
+        <Link to="/#reservation" className="main-button">
           Rendez-Vous
         </Link>
       </div>

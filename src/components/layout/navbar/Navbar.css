@@ -20,7 +20,7 @@ nav {
   }
 }
 
-.logoWebSite {
+.web-site-logo {
   display: flex;
   align-items: center;
 }
@@ -84,7 +84,7 @@ nav {
 
   .showNavbar {
     height: 45vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -95,14 +95,29 @@ nav {
     background: var(--main-color-contrast);
     font-size: 2rem;
 
-    a{
+    a {
       font-weight: 800;
       text-decoration: none;
       color: #ffffff;
     }
   }
 
-  .hiddenNavbar{
+  .hiddenNavbar {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  nav .web-site-logo .logo{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  nav .web-site-logo .title {
+    font-size: 1.3rem;
+  }
+
+  nav .navButton {
+    font-size: .9rem;
   }
 }

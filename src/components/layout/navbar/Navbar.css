@@ -20,7 +20,7 @@ nav {
   }
 }
 
-.logoWebSite {
+.web-site-logo {
   display: flex;
   align-items: center;
 }
@@ -104,5 +104,20 @@ nav {
 
   .hiddenNavbar {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  nav .web-site-logo .logo{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  nav .web-site-logo .title {
+    font-size: 1.3rem;
+  }
+
+  nav .navButton {
+    font-size: .9rem;
   }
 }

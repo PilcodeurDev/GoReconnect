@@ -7,15 +7,11 @@ import { Link } from "react-router-dom";
  * The internal imports
  */
 import "./Kinesiologie.css";
-import { animals, dontGU, freedom, questionPersonnel, physical, workSpace} from "../../../assets";
+import { animals, dontGU, freedom, questionPersonnel, physical, workSpace} from "../../../assets";import SplitTextAnimation from "../../animation/SplitTextAnimation";
 
 export default function Kinesiologie() {
   return (
     <section id="laKinesiologie">
-      <h2>
-        Basée sur la médecine chinoise,
-        elle est spécialisée dans la libération émotionnelle.
-      </h2>
       <div className="array">
         <div className="array-benefits">
           <div className="first-row-benefit">

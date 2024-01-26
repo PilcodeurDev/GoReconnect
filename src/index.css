@@ -37,7 +37,7 @@ h2 {
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.427);
 }
 
-.mainButton:hover {
+.main-button:hover {
   background: var(--secondary-color);
 }
 
@@ -65,6 +65,11 @@ h2 {
 @font-face {
   font-family: montserrat-bold;
   src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: dancingScript;
+  src: url(assets/fonts/DancingScript-Bold.ttf);
 }
 
 .container {

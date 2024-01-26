@@ -1,50 +1,72 @@
 /**
+ * The external imports
+ */
+import { Link } from "react-router-dom";
+
+/**
  * The internal imports
  */
 import "./Kinesiologie.css";
-import { main } from "../../../assets";
+import { animals, dontGU, freedom, questionPersonnel, physical, workSpace} from "../../../assets";
 
 export default function Kinesiologie() {
   return (
     <section id="laKinesiologie">
-        <h2> C'est quoi la kinésiologie ?</h2>
-        <div className="textImage">
-          <div className="text">
-            <p>
-              <i>
-                La kinésiologie est une méthode, basée sur la médecine
-                chinoise, spécialisée dans la libération émotionnelle et
-                l'inconscient.
-              </i>
-            </p>
-            <img src={main} alt="main touchant du doigt de l'eau" />
-            <p>
-              Un animal qui développe une problématique, qu'elle soit physique
-              (dont le vétérinaire ne trouve pas l'origine), psychologique,
-              émotionnelle ou comportementale, essaie de communiquer avec son
-              humain. Il montre qu'il a un mal-être profond et qu'il a besoin
-              d'aide pour s'en libérer.
-            </p>
-            <p>
-              Lors d'une séance, je me connecte à votre animal par le toucher
-              pour me mettre en lien avec l'énergie qui circule en lui. Via un
-              test tissulaire, je lui demande l'autorisation ainsi que les
-              problématiques qu'il est prêt à libérer aujourd'hui.
-            </p>
-            <p>
-              L'objectif n'est pas de se concentrer sur le problème en tant
-              que tel (ex: réaction aux congénères) mais plutôt de chercher
-              l'origine : " Qu'est ce qui a engendré ce blocage émotionnel,
-              dans la vie de cet animal ? ".
-            </p>
-            <p>
-              Une fois trouvée, je vais laisser la mémoire de l'évènement en
-              place tout en retirant l'émotion très forte qui y était
-              associée.
-            </p>
+      <h2>
+        Basée sur la médecine chinoise,
+        elle est spécialisée dans la libération émotionnelle.
+      </h2>
+      <div className="array">
+        <div className="array-benefits">
+          <div className="first-row-benefit">
+            <div className="benefit-one">
+              <span>Physique, Emotionnel, Mental, Spirituel</span>
+              <div className="benefit-image">
+                <img
+                  src={physical}
+                  alt="Physique, Emotionnel, Mental, Spirituel"
+                />
+              </div>
+            </div>
+            <div className="benefit-two">
+              <span>Prévention ou Accompagnement</span>
+                <img src={dontGU} alt="message positif" />
+            </div>
           </div>
-          <button className="mainButton">Réserver</button>
+          <div className="second-row-benefit">
+            <div className="benefit-three">
+              <span>Origine du problème</span>
+              <div className="benefit-image">
+                <img src={questionPersonnel} alt="" />
+              </div>
+            </div>
+            <div className="benefit-four">
+              <span>Pour tous les Animaux</span>
+              <div className="benefit-image">
+                <img src={animals} alt="wild deer" />
+              </div>
+            </div>
+          </div>
+          <div className="third-row-benefit">
+            <div className="benefit-five">
+              <span>Libération Emotionnelle</span>
+              <div className="benefit-image">
+                <img src={freedom} alt="broken chain" />
+              </div>
+            </div>
+            <div className="benefit-six">
+              <span>présentiel ou distantiel</span>
+              <div className="benefit-image">
+                <img src={workSpace} alt="office" />
+              </div>
+            </div>
+          </div>
+          <Link to="/#" className="main-content">
+            <span>La Kinésiologie</span>
+            <span>en savoir plus...</span>
+          </Link>
         </div>
+      </div>
     </section>
   );
 }

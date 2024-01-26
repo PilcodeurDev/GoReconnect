@@ -13,6 +13,7 @@ export default function Banner() {
     <header id="moveUp">
       <div className="banner">
         <img src={banner} alt="Alix et Shiba" />
+        {/* <p>Reconnectons nous ensemble a nos âmes.</p> */}
       </div>
     </header>
   );

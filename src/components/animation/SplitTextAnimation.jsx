@@ -2,18 +2,14 @@
  * The external imports
  */
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import gsap from 'gsap';
 import SplitTextJS from 'split-text-js';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import { ScrollPlugin } from 'gsap/ScrollPlugin';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function SplitTextAnimation({ text }) {
-
-  const [animation, setAnimation] = useState(false);
-  const togleAnimation = () => setAnimation(!animation);
 
   useEffect(() => {
     const sentence = gsap.utils.toArray(".splitAnimation");
@@ -25,7 +21,7 @@ export default function SplitTextAnimation({ text }) {
         duration: 5,
         y: 75,
         rotateX: -90,
-        stagger: 0.4,
+        stagger: 0.6,
         scrollTrigger: {
           trigger: '.splitAnimation',
           start: "top 80%",

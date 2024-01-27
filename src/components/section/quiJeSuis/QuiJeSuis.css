@@ -1,6 +1,6 @@
 #quiJeSuis {
   position: relative;
-  padding: 6rem 0 18rem 0;
+  padding: 6rem 0;
 }
 
 #quiJeSuis h2 {
@@ -57,6 +57,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  line-height: 1.5;
 }
 
 .cursus h4 {
@@ -71,6 +72,10 @@
 
 .cursus .container-btn {
   display: flex;
+}
+.cursus .container-btn .secondary-btn span{
+  font-size: .9rem;
+
 }
 
 .cursus .container-btn a {
@@ -131,6 +136,11 @@
 }
 
 @media screen and (max-width: 640px) {
+
+  #quiJeSuis {
+    padding: 6rem 0 18rem 0;
+  }
+
   .cart-reverse {
     margin-left: 0rem;
   }
@@ -160,6 +170,6 @@
   .container-btn{
     position: absolute;
     right: 5%;
-    top: 158%;
+    top: 165%;
   }
 }

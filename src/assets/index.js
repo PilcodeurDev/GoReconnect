@@ -1,4 +1,5 @@
-import alix from "./alix_cheval.jpg";
+import alixBox from "./alix-cheval-box.jpg";
+import alixEducation from "./alix-education-chien.jpg";
 import banner from "./banner.jpg";
 import fbk from "./facebook_logo.png";
 import insta from "./instagram_logo.png";
@@ -12,5 +13,5 @@ import physical from "./physical.jpg"
 import questionPersonnel from "./question-personnel.avif";
 import workSpace from "./work-space.avif"
 
-export { alix, logo, fbk, insta, whatsApp, banner };
+export { alixBox, alixEducation, logo, fbk, insta, whatsApp, banner };
 export { animals, physical, dontGU, freedom, questionPersonnel, workSpace};

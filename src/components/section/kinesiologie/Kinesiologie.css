@@ -15,8 +15,6 @@
   position: relative;
 }
 
-
-
 .array-benefits .first-row-benefit,
 .third-row-benefit {
   width: 65%;
@@ -116,6 +114,11 @@
 
   .array-benefits .main-content {
     position: relative;
+    margin-top: 1rem;
+  }
+
+  .secondary-btn {
+    position: relative !important;
     margin-top: 1rem;
   }
 }

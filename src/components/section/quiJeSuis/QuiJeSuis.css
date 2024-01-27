@@ -1,5 +1,6 @@
 #quiJeSuis {
   position: relative;
+  padding: 6rem 0 18rem 0;
 }
 
 #quiJeSuis h2 {
@@ -8,7 +9,6 @@
 
 .row {
   width: 100%;
-  height: 100%;
   display: flex;
   position: relative;
 }
@@ -75,4 +75,91 @@
 
 .cursus .container-btn a {
   position: relative;
+}
+@media screen and (max-width: 1024px) {
+  #quiJeSuis h2 {
+    margin-left: 2rem;
+  }
+
+  .cart-reverse {
+    margin-left: 2rem;
+
+  }
+
+  .cursus {
+    margin-left: 3rem;
+  }
+
+  .cursus h4 {
+    margin: 2rem 0 2rem 2rem;
+  }
+
+  .cursus p {
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    align-items: center;
+  }
+
+  .cart-reverse {
+    margin-left: 2rem;
+    height: 50%;
+  }
+
+  .cursus {
+    margin-left: 1rem;
+  }
+
+  .cursus h4 {
+    margin: 2rem 0 2rem 1rem;
+    font-size: 1.2rem;
+    width: 50%;
+  }
+
+  .cursus p {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-size: .9rem;
+    width: 80%;
+
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .cart-reverse {
+    margin-left: 0rem;
+  }
+
+  .cursus {
+    margin-left: 0rem;
+  }
+
+  .cursus h3{
+    position: absolute;
+    left: 0%;
+    top: -5%;
+  }
+
+  .cursus h4{
+    margin-top: 2rem;
+  }
+
+  .cursus p{
+    margin: 0;
+    position: absolute;
+    top: 98%;
+    left: 0%;
+    width: 95%;
+  }
+
+  .container-btn{
+    position: absolute;
+    right: 5%;
+    top: 158%;
+  }
 }

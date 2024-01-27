@@ -1,8 +1,4 @@
 /**
- * The external imports
- */
-
-/**
  * The internal imports
 */
 import Banner from "../section/banner/Banner";

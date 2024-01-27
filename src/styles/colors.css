@@ -6,15 +6,14 @@ Couleur secondaire: #f7b267ff
 Couleur contrast: #54eaf2
  */
 body {
-  --bg-color: #f7feff;
-  --text-color: #012023;
+  --bg-color: #eff4f5;
+  --text-color: #011415;
 
   --main-color: linear-gradient(0deg, #f25c54 , #f7b267ff );
-  --main-color-reverse: linear-gradient(180deg, #f25c54 , #f7b267ff );
   --secondary-color: #f27059;
 
   --main-color-contrast: #1a416d;
-  --main-color-contrast-deux: #90D3FC;
+  --main-color-contrast-deux: #9fd1ef;
 
   background: var(--bg-color);
   color: var(--text-color);

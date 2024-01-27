@@ -47,10 +47,21 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .banner {
+    height: 80vh;
+    margin-bottom: 10rem;
+  }
+
   .banner p{
     font-size: 3rem;
     left: 60%;
     width: 50%;
+  }
+  .banner-text h2{
+    width: 90%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
   }
 }
 

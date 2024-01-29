@@ -7,13 +7,14 @@ Couleur contrast: #54eaf2
  */
 body {
   --bg-color: #eff4f5;
+  --second-bg-color: #e5eced;
   --text-color: #011415;
 
   --main-color: linear-gradient(0deg, #f25c54 , #f7b267ff );
   --secondary-color: #f27059;
 
-  --main-color-contrast: #1a416d;
-  --main-color-contrast-deux: #9fd1ef;
+  --main-color-contrast: #245791;
+  --main-color-contrast-deux: #e0eaf1;
 
   background: var(--bg-color);
   color: var(--text-color);

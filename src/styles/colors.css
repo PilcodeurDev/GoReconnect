@@ -11,7 +11,7 @@ body {
   --text-color: #011415;
 
   --main-color: linear-gradient(0deg, #f25c54 , #f7b267ff );
-  --secondary-color: #f27059;
+  --secondary-color: linear-gradient(0deg, #f7b267ff, #f25c54);
 
   --main-color-contrast: #245791;
   --main-color-contrast-deux: #e0eaf1;

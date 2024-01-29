@@ -34,10 +34,11 @@
   font-family: dancingScript;
 }
 
-.banner-text h2 {
+.banner-text h3 {
   font-size: 4rem;
   text-align: center;
   text-shadow: 1px 1px 6px #000;
+  font-family: dancingScript;
 }
 
 @media screen and (max-width: 1024px) {

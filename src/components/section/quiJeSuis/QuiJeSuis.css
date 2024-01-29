@@ -3,10 +3,6 @@
   padding: 6rem 0;
 }
 
-#quiJeSuis h2 {
-  margin-bottom: 6rem;
-}
-
 .row {
   width: 100%;
   display: flex;
@@ -138,7 +134,7 @@
 @media screen and (max-width: 640px) {
 
   #quiJeSuis {
-    padding: 6rem 0 18rem 0;
+    padding: 6rem 0 25rem 0;
   }
 
   .cart-reverse {

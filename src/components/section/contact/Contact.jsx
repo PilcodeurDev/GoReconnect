@@ -32,17 +32,19 @@ export default function Contact() {
 
   return (
     <section id="contact">
-      <div className="row">
-        <div className="informations">
-          <h3>Mon Contact :</h3>
-          {legalData.map(({ value, icon }, index) => (
-            <div key={index}>
-              <span className="icon">{icon}</span>
-              <span className="text">{value}</span>
-            </div>
-          ))}
+      <div className="container">
+        <div className="row">
+          <div className="informations">
+            <h3>Mon Contact :</h3>
+            {legalData.map(({ value, icon }, index) => (
+              <div key={index}>
+                <span className="icon">{icon}</span>
+                <span className="text">{value}</span>
+              </div>
+            ))}
+          </div>
+          <GoogleMpaView />
         </div>
-        <GoogleMpaView />
       </div>
     </section>
   );

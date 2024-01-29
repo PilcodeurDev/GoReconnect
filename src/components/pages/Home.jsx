@@ -11,12 +11,10 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <div className="container">
         <Kinesiologie />
         <QuiJeSuis />
-        <Contact />
         <Reservation />
-      </div>
+        <Contact />
     </>
   );
 }

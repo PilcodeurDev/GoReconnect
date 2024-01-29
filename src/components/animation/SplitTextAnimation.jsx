@@ -33,8 +33,8 @@ export default function SplitTextAnimation({ text }) {
   }, []);
 
   return (
-    <h2 className="splitAnimation">
+    <h3 className="splitAnimation">
       {text}
-    </h2>
+    </h3>
   );
 }

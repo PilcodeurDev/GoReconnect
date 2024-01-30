@@ -2,6 +2,7 @@
  * The external imports
 */
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 /**
  * The internal imports
@@ -9,25 +10,32 @@ import { Link } from "react-router-dom";
 import "./QuiJeSuis.css";
 import { alixBox, alixEducation } from "../../../assets/index";
 
+export const CartReverse = ({ imgOne, imgTwo }) => {
+  return (
+    <div className="cart-reverse">
+      <div className="the-front">
+        <img src={imgOne} alt="Séance de kinésiologie sur un cheval" />
+      </div>
+      <div className="the-back">
+        <img src={imgTwo} alt="Séance de communication sur un cheval" />
+      </div>
+    </div>
+  );
+};
+
+CartReverse.propTypes = {
+  imgOne: PropTypes.string.isRequired,
+  imgTwo: PropTypes.string.isRequired,
+};
+
 export default function QuiJeSuis() {
   return (
     <section id="quiJeSuis">
       <div className="container">
         <h2> Qui Je Suis</h2>
         <div className="row">
-          <div className="cart-reverse">
-            <div className="the-front">
-              <img src={alixBox} alt="Séance de kinésiologie sur un cheval" />
-            </div>
-            <div className="the-back">
-              <img
-                src={alixEducation}
-                alt="Séance de communication sur un cheval"
-              />
-            </div>
-          </div>
+          <CartReverse imgOne={alixBox} imgTwo={alixEducation}/>
           <div className="cursus">
-            <h3>SUR MOI</h3>
             <h4>
               PLUS DE 12 ANS D'EXPÉRIENCE À TRAVERS UNE GAMME DIVERSIFIÉE DE
               DOMAINES DE PSYCHOLOGIE

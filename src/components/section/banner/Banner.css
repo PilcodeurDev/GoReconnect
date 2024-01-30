@@ -1,7 +1,7 @@
 .banner {
   height: 70vh;
   width: 100%;
-  margin-bottom: 19rem;
+  margin-bottom: 10rem;
   position: relative;
 }
 
@@ -37,7 +37,7 @@
 .banner-text h3 {
   font-size: 4rem;
   text-align: center;
-  text-shadow: 1px 1px 6px #000;
+  text-shadow: 1px 1px 6px #000000c7;
   font-family: dancingScript;
 }
 

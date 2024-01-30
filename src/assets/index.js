@@ -12,7 +12,8 @@ import freedom from "./freedom.webp"
 import physical from "./physical.jpg"
 import questionPersonnel from "./question-personnel.avif";
 import shiba from "./shiba.jpg";
+import shibaCalin from "./shibaCalin.jpg";
 import workSpace from "./work-space.avif"
 
 export { alixBox, alixEducation, logo, fbk, insta, whatsApp, banner };
-export { animals, physical, dontGU, freedom, questionPersonnel, shiba, workSpace};
+export { animals, physical, dontGU, freedom, questionPersonnel, shiba, shibaCalin, workSpace};

@@ -98,10 +98,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  #laKinesiologie {
-    padding-top: 0rem;
-  }
-
   .array-benefits {
     gap: 4rem;
   }

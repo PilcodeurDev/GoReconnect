@@ -6,7 +6,8 @@ import { FaWhatsappSquare, FaEnvelope } from "react-icons/fa";
  * The internal imports
  */
 import "./Reservation.css";
-import { shiba } from "../../../assets";
+import { shiba, shibaCalin } from "../../../assets";
+import { CartReverse } from "../quiJeSuis/QuiJeSuis"
 
 export default function Reservation() {
   return (
@@ -38,9 +39,7 @@ export default function Reservation() {
               </a>
             </div>
           </div>
-          <div className="shiba-img">
-            <img src={shiba} alt="chien apaisé émotionellement" />
-          </div>
+          <CartReverse imgOne={shiba} imgTwo={shibaCalin} />
         </div>
       </div>
     </section>

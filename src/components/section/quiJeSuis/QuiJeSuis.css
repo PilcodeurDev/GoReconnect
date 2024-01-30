@@ -69,22 +69,16 @@
 .cursus .container-btn {
   display: flex;
 }
-.cursus .container-btn .secondary-btn span{
-  font-size: .9rem;
-
+.cursus .container-btn .secondary-btn span {
+  font-size: 0.9rem;
 }
 
 .cursus .container-btn a {
   position: relative;
 }
 @media screen and (max-width: 1024px) {
-  #quiJeSuis h2 {
-    margin-left: 2rem;
-  }
-
   .cart-reverse {
     margin-left: 2rem;
-
   }
 
   .cursus {
@@ -98,7 +92,6 @@
   .cursus p {
     margin-bottom: 2rem;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -124,15 +117,12 @@
   .cursus p {
     margin-bottom: 2rem;
     margin-left: 1rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
     width: 80%;
-
   }
-
 }
 
 @media screen and (max-width: 640px) {
-
   #quiJeSuis {
     padding: 6rem 0 25rem 0;
   }
@@ -145,17 +135,11 @@
     margin-left: 0rem;
   }
 
-  .cursus h3{
-    position: absolute;
-    left: 0%;
-    top: -5%;
-  }
-
-  .cursus h4{
+  .cursus h4 {
     margin-top: 2rem;
   }
 
-  .cursus p{
+  .cursus p {
     margin: 0;
     position: absolute;
     top: 98%;
@@ -163,9 +147,15 @@
     width: 95%;
   }
 
-  .container-btn{
+  .container-btn {
     position: absolute;
     right: 5%;
     top: 165%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container-btn {
+    top: 175%;
   }
 }

@@ -9,7 +9,7 @@ import { useContext } from "react";
  * The internal imports
  */
 import "./Contact.css";
-import { logo } from "../../../assets";
+import { logo, spriteLogo } from "../../../assets";
 import GoogleMpaView from "../../googleMapView/GoogleMapView";
 import { DataContext } from "../../../context/DataProvider";
 

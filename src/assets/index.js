@@ -1,6 +1,7 @@
 import alixBox from "./alix-cheval-box.jpg";
 import alixEducation from "./alix-education-chien.jpg";
 import banner from "./banner.jpg";
+import spriteLogo from "./sprite-logoGR.svg";
 import fbk from "./facebook_logo.png";
 import insta from "./instagram_logo.png";
 import logo from "./logo.png";
@@ -16,3 +17,4 @@ import workSpace from "./work-space.avif"
 
 export { alixBox, alixEducation, logo, fbk, insta, whatsApp, banner };
 export { animals, physical, dontGU, freedom, questionPersonnel, shiba, workSpace};
+export { spriteLogo }

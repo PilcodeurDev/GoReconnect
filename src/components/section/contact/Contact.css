@@ -1,42 +1,68 @@
 #contact {
-
-  .row {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  padding-bottom: 0rem;
 }
 
 .informations {
-  h3 {
-    text-decoration: underline;
-    padding-bottom: 2rem;
-  }
-  div {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.informations div{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+.informations div .icon img,
+.informations div .icon svg{
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  flex: 1;
 }
 
-.icon{
+.informations div .text{
+  flex: 2;
+}
 
-  img{
+.informations div:last-child .text{
+  text-wrap: nowrap;
+}
+
+
+.footer-map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-map .googleMap {
+  width: 98%;
+  height: 16rem;
+  background: #a5a5a5;
+}
+
+@media screen and (max-width: 640px) {
+  .informations div .icon img,
+  .informations div .icon svg{
     width: 2rem;
     height: 2rem;
   }
 
-  svg {
-  width: 2rem;
-  height: 2rem;
-}
 }
 
-
-.googleMap {
-  width: 40rem;
-  height: 25rem;
-  background: #000;
+@media screen and (max-width: 425px) {
+  .informations div{
+    width: 50%;
+  }
+  .footer-map .googleMap {
+    height: 12rem;
+  }
 }

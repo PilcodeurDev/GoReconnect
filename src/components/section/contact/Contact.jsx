@@ -9,19 +9,15 @@ import { useContext } from "react";
  * The internal imports
  */
 import "./Contact.css";
-import { logo } from "../../../assets";
-import GoogleMpaView from "../../googleMapView/GoogleMapView";
+import GoogleMapView from "../../googleMapView/GoogleMapView";
 import { DataContext } from "../../../context/DataProvider";
 
 
 
 export default function Contact() {
   const { owner } = useContext(DataContext);
-  const legalData = [
-    {
-      value: owner.site,
-      icon: <img src={logo} alt="logo entreprise" />,
-    },
+
+  const contactData = [
     { value: owner.name, icon: <FaUser /> },
     {
       value: owner.address,
@@ -33,18 +29,18 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <div className="row">
-          <div className="informations">
-            <h3>Mon Contact :</h3>
-            {legalData.map(({ value, icon }, index) => (
-              <div key={index}>
-                <span className="icon">{icon}</span>
-                <span className="text">{value}</span>
-              </div>
-            ))}
-          </div>
-          <GoogleMpaView />
+        <h2>Mon Contact :</h2>
+        <div className="informations">
+          {contactData.map(({ value, icon }, index) => (
+            <div key={index}>
+              <span className="icon">{icon}</span>
+              <span className="text">{value}</span>
+            </div>
+          ))}
         </div>
+      </div>
+      <div className="footer-map">
+        <GoogleMapView />
       </div>
     </section>
   );

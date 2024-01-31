@@ -3,7 +3,6 @@
 
 }
 
-h1 + h3 {
-  margin: 2rem;
-  text-decoration-line: underline;
+.gConditions h3{
+  margin: 2rem 0 1rem 0;
 }

@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Banner />
-        <Kinesiologie />
-        <QuiJeSuis />
-        <Reservation />
-        <Contact />
+      <Kinesiologie />
+      <QuiJeSuis />
+      <Reservation />
+      <Contact />
     </>
   );
 }

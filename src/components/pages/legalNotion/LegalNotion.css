@@ -5,3 +5,7 @@
 .legal-container .notionsLegales{
   margin: 4rem auto !important;
 }
+
+.legal-container h3{
+  margin: 2rem 0 1rem 0;
+}

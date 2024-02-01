@@ -89,6 +89,8 @@
   margin-bottom: 3rem;
   border-radius: 35px;
   background: #e0dfdf;
+  box-shadow: 4px 4px 10px 0px #000000c4;
+
   position: relative;
   overflow: hidden;
 }

@@ -43,7 +43,7 @@ function Root({ element }) {
       <Navbar />
       {element}
       <Footer />
-      {element === <Home /> && <ScrollToAnchor />}
+      <ScrollToAnchor />
     </>
   );
 }

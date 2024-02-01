@@ -1,21 +1,19 @@
-.gSale{
+.gSale {
   margin: 4rem auto !important;
-
 }
 
-h1 + h3 {
-  margin: 2rem;
-  text-decoration-line: underline;
+.gSale h3 {
+  margin: 2rem 0 1rem 0;
 }
 
-.CGS-info {
+.gSale .CGS-info {
   margin: 1rem 2rem;
 }
 
-.underline{
+.gSale .underline {
   text-decoration-line: underline;
 }
 
-.bold{
+.gSale .bold {
   font-family: montserrat-bold;
 }

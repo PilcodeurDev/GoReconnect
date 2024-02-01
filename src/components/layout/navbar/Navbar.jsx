@@ -12,7 +12,7 @@ import { CgCloseO } from "react-icons/cg";
 import "./Navbar.css";
 import { logo } from "../../../assets";
 
-export default function navbar() {
+export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (

@@ -62,7 +62,7 @@ export default function Footer() {
         <div>
           <span>© 2024 Kinésiologie Animalière 25 Tous droits réservés.</span>
           <span>
-            <Link to="/mention-legal" className="link">
+            <Link to="/mentions-legales" className="link">
               Mentions légales
             </Link>
           </span>
@@ -72,7 +72,7 @@ export default function Footer() {
             </Link>
           </span>
           <span>
-            <Link to="/condition-general-dutilisation" className="link">
+            <Link to="/condition-general-d-utilisation" className="link">
               CGU
             </Link>
           </span>

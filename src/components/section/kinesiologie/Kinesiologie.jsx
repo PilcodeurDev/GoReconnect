@@ -24,16 +24,16 @@ gsap.registerPlugin(ScrollTrigger);
 const WrapperTextsKinesiologie = () => {
   const wrapperTextsArray = [
     {
-      subtitle: "sub-title 1",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsamofficia quo non voluptas laboriosam distinctio libero cumque,velit voluptatum facere a nesciunt. Possimus quas suscipitvoluptas unde doloribus, esse provident?",
+      subtitle: "Bien-être",
+      text: "La kinésiologie vise à améliorer le bien-être des animaux en équilibrant leur énergie intérieure et leurs émotions.",
     },
     {
-      subtitle: "sub-title 2",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsamofficia quo non voluptas laboriosam distinctio libero cumque,velit voluptatum facere a nesciunt. Possimus quas suscipitvoluptas unde doloribus, esse provident?",
+      subtitle: "Pour quels problèmes?",
+      text: "Gestion des émotions, réactivité, peurs, angoisse, séparation, destruction, stéréotypies, détresse émotionnelle, etc.",
     },
     {
-      subtitle: "sub-title 3",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsamofficia quo non voluptas laboriosam distinctio libero cumque,velit voluptatum facere a nesciunt. Possimus quas suscipitvoluptas unde doloribus, esse provident?",
+      subtitle: "Quels bienfaits ?",
+      text: "Retrouver un apaisement, la joie de vivre, une harmonie et une paix intérieure.",
     },
   ];
 

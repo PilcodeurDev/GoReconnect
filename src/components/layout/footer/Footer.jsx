@@ -53,7 +53,7 @@ export default function Footer() {
           <a href="https://www.instagram.com/kinesiologie_animaliere_25/">
             <img src={insta} alt="logo instagram" />
           </a>
-          <a href="https://www.instagram.com/kinesiologie_animaliere_25/">
+          <a href="https://wa.me/33668352377">
             <img src={whatsApp} alt="logo instagram" />
           </a>
         </div>

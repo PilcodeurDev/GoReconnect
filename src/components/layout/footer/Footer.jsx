@@ -8,7 +8,7 @@ import { fbk, insta, whatsApp, logo } from "../../../assets";
 export default function Footer() {
   const PilcodeurDev = (
     <a
-      href="https://my-visual-impact-prod-a80de0f47f5b.herokuapp.com/"
+      href="https://despres-simon.com/"
       target="_blank"
       rel="noreferrer"
       className="link"

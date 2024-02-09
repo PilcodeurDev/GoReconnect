@@ -17,7 +17,7 @@ export default function Reservation() {
         <div className="row">
           <div className="before-reservation">
             <h3 className="more-info">
-              Contactez moi gratuitement pour parler des troubles de votre
+              Contactez-moi gratuitement pour parler des troubles de votre
               animal, avant de réserver une première séance :
             </h3>
             <div className="redirection-btn">

@@ -27,7 +27,7 @@ export default function Reservation() {
                 target="_blank"
               >
                 <div className="main-button reservation-button">
-                  <span>What's App :</span>
+                  <span>WhatsApp :</span>
                   <FaWhatsappSquare className="logoWhatsApp" />
                 </div>
               </a>

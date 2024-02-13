@@ -1,6 +1,6 @@
 ## 🐱🐴 Go Reconnect 🐮🐶
 
-over here => [Go Reconnect](https://goreconnect.ch/)
+Visit my website: [Go Reconnect](https://goreconnect.ch/) 👍
 
 ## About us
 Go Reconnect (formerly known as Kinésiologie Animalière 25) is a professional project for a patient client.

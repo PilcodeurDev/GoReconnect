@@ -1,13 +1,9 @@
 /**
- * The external imports
- */
-import { FaWhatsappSquare, FaEnvelope } from "react-icons/fa";
-/**
  * The internal imports
  */
 import "./Reservation.css";
 import { shiba, shibaCalin } from "../../../assets";
-import { CartReverse } from "../quiJeSuis/QuiJeSuis"
+import { CartReverse } from "../quiJeSuis/QuiJeSuis";
 
 export default function Reservation() {
   return (
@@ -20,22 +16,14 @@ export default function Reservation() {
               Contactez-moi gratuitement pour parler des troubles de votre
               animal, avant de réserver une première séance :
             </h3>
-            <div className="redirection-btn">
+            <div>
               <a
-                href="https://wa.me/33668352377"
-                rel="noreferrer"
+                className="main-button"
                 target="_blank"
+                rel="noreferrer"
+                href="https://calendly.com/kinesiologie_animaliere_25/20min"
               >
-                <div className="main-button reservation-button">
-                  <span>WhatsApp :</span>
-                  <FaWhatsappSquare className="logoWhatsApp" />
-                </div>
-              </a>
-              <a href="mailto:kinesiologieanimaliere25@gmail.com?subject=Prise de Contact&body=Bonjour Alix, je souhaite prendre rendez-vous pour mon [espèce-de-l'animal] qui s'appel(le) [Prénom-de-l'animal] . Je souhaiterais un rendez-vous téléphonique pour échanger dès que possible avec vous. Cordialement, [Prénom] [Nom]. ">
-                <div className="main-button reservation-button">
-                  <span>Mail :</span>
-                  <FaEnvelope className="logoEnveloppe" />
-                </div>
+                Mon agenda
               </a>
             </div>
           </div>

@@ -12,7 +12,8 @@
 .cart-reverse {
   position: relative;
   flex: 1;
-  max-width: 30rem;
+  max-width: 330px;
+  max-height: 500px;
   margin: 0 1rem 0 6rem;
   border-radius: 25px;
   box-shadow: 4px 4px 10px 0px #000000c4;
@@ -125,7 +126,7 @@
 
 @media screen and (max-width: 640px) {
   #quiJeSuis {
-    padding: 6rem 0 25rem 0;
+    /* padding: 6rem 0 25rem 0; */
   }
 
   .cart-reverse {
@@ -143,7 +144,7 @@
   .cursus p {
     margin: 0;
     position: absolute;
-    top: 98%;
+    top: 100%;
     left: 0%;
     width: 95%;
   }
@@ -155,8 +156,23 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 440px) {
+  .cursus p {
+    position: relative;
+  }
   .container-btn {
-    top: 175%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    scale: 0.8;
+  }
+
+  .btn-container {
+    padding: 0 0 !important;
+  }
+
+  .btn-contact {
+    justify-content: space-between !important;
   }
 }

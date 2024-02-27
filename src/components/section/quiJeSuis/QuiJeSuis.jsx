@@ -54,7 +54,7 @@ export default function QuiJeSuis() {
             <div className="container-btn">
               <Link to="/#" className="secondary-btn">
                 <span></span>
-                <span>en savoir plus sur moi...</span>
+                <span>en savoir plus...</span>
               </Link>
             </div>
           </div>

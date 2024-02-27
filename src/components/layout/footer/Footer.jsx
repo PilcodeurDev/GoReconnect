@@ -33,10 +33,10 @@ export default function Footer() {
           <Link to="/#moveUp" className="link">
             Accueil
           </Link>
-          <Link to="/#laKinesiologie" className="link">
+          <Link to="/la-kinesiologie" className="link">
             Mes prestations
           </Link>
-          <Link to="/#quiJeSuis" className="link">
+          <Link to="/qui-suis-je" className="link">
             Qui suis-je ?
           </Link>
           <Link to="/#contact" className="link">

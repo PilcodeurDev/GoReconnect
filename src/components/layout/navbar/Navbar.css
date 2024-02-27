@@ -64,11 +64,20 @@ nav .title {
   nav {
     padding: 1.25rem 1.25rem;
   }
+
+  .logo{
+    width: 4rem;
+    height: 4rem;
+  }
 }
 
 @media screen and (max-width: 840px) {
   .navButton {
     display: none;
+  }
+
+  nav {
+    padding: .5rem 1.25rem;
   }
 
   .menuBurger {

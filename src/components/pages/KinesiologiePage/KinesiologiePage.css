@@ -1,6 +1,7 @@
 #container-kinesio {
   min-height: 100vh;
-  max-width: 900px;
+  width: 900px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 8rem 0 5rem 0;
   display: flex;
@@ -32,4 +33,15 @@
 
 #container-kinesio .underline {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+#container-kinesio {
+  padding: 10rem 0 5rem 0;
+}
+
+#container-kinesio .title {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
 }

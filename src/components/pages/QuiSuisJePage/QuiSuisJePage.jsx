@@ -12,20 +12,18 @@ export default function QuiSuisJePage() {
   const ameAnimal = (
     <a
       className="ameanimal-link"
+      target="_blank"
+      rel="noreferrer"
       href="https://www.kinesiologie-ameanimale.fr/"
     >
-      Âme Animal
+      Âme Animale
     </a>
   );
 
   return (
     <div id="container-quisuisje">
       <img className="featured-img" src={alixFtd} alt="kinesiologie" />
-      <h1 className="title">
-        <span>Alix Lucidarme</span>
-        <span>&</span>
-        <span>Shiba</span>
-      </h1>
+      <h1 className="title">Alix Lucidarme</h1>
       <p className="subtitle">
         Je m'appelle Alix et j'exerce le métier de kinésiologue animalière.
       </p>

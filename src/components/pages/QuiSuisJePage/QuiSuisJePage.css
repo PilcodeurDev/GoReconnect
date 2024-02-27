@@ -20,9 +20,6 @@
 #container-quisuisje .title {
   font-size: 3rem;
   margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #container-quisuisje .subtitle {

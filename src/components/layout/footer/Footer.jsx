@@ -47,13 +47,21 @@ export default function Footer() {
           </Link>
         </div>
         <div className="social-logos">
-          <a href="https://www.facebook.com/kinesiologieanimaliere25">
+          <a
+            href="https://www.facebook.com/kinesiologieanimaliere25"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={fbk} alt="logo facebook" />
           </a>
-          <a href="https://www.instagram.com/kinesiologie_animaliere_25/">
+          <a
+            href="https://www.instagram.com/kinesiologie_animaliere_25/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={insta} alt="logo instagram" />
           </a>
-          <a href="https://wa.me/33668352377">
+          <a href="https://wa.me/33668352377" target="_blank" rel="noreferrer">
             <img src={whatsApp} alt="logo instagram" />
           </a>
         </div>

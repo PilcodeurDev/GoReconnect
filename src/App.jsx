@@ -1,7 +1,7 @@
 /**
  * The external imports
  */
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 
 /**
@@ -18,6 +18,7 @@ import ScrollToAnchor from "./helper/ScrollToAnchor";
 import Erreur404 from "./components/pages/error404/Error404";
 import KinesiologiePage from "./components/pages/KinesiologiePage/KinesiologiePage";
 import QuiSuisJePage from "./components/pages/QuiSuisJePage/QuiSuisJePage";
+import { useEffect } from "react";
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,12 @@ const router = createBrowserRouter([
 ]);
 
 function Root({ element }) {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <Navbar />

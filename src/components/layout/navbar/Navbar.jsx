@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav>
       <div className="web-site-logo">
         <div className="logo">
-          <Link to="/#moveUp">
+          <Link to="/">
             <img src={logo} alt="logo Go Reconnect" />
           </Link>
         </div>

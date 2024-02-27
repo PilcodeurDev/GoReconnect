@@ -41,9 +41,9 @@ export default function QuiJeSuis() {
               DOMAINES DE PSYCHOLOGIE
             </h4>
             <p>
-              J'exerce le métier de kinésiologue animalière. Après avoir
-              exercé plusieurs années en tant qu'infirmière hospitalière, je
-              suis retournée à mes aspirations d'enfance : aider les animaux.
+              J'exerce le métier de kinésiologue animalière. Après avoir exercé
+              plusieurs années en tant qu'infirmière hospitalière, je suis
+              retournée à mes aspirations d'enfance : aider les animaux.
               Passionnée par les médecines alternatives, mes animaux et moi
               avons pu bénéficier de médecines douces, notamment de
               kinésiologie. Fascinée par cette méthode et les bienfaits que je
@@ -52,7 +52,7 @@ export default function QuiJeSuis() {
               Touraine, à l'école Âme Animale en 2021-2022.
             </p>
             <div className="container-btn">
-              <Link to="/#" className="secondary-btn">
+              <Link to="/qui-suis-je" className="secondary-btn">
                 <span></span>
                 <span>en savoir plus...</span>
               </Link>

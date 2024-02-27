@@ -17,6 +17,7 @@ import GeneralConditionsUse from "./components/pages/GeneralConditionsUse/Genera
 import ScrollToAnchor from "./helper/ScrollToAnchor";
 import Erreur404 from "./components/pages/error404/Error404";
 import KinesiologiePage from "./components/pages/KinesiologiePage/KinesiologiePage";
+import QuiSuisJePage from "./components/pages/QuiSuisJePage/QuiSuisJePage";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "la-kinesiologie",
     element: <Root element={<KinesiologiePage />} />,
+  },
+  {
+    path: "qui-suis-je",
+    element: <Root element={<QuiSuisJePage />} />,
   },
   {
     path: "condition-general-d-utilisation",

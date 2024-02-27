@@ -16,10 +16,11 @@ export { animals, dontGU, freedom, physical, questionPersonnel, workSpace };
 
 import alixBox from "./alix-cheval-box.jpg";
 import alixEducation from "./alix-education-chien.jpg";
+import alixFtd from "./quisuisje-featured.jpg";
 import banner from "./banner.jpg";
 import dogPositif from "./positif-dog-featured.jpg";
 import medecineCh from "./medecine-chinoise-medium.jpg";
 import shiba from "./shiba.jpg";
 import shibaCalin from "./shibaCalin.jpg";
 
-export { alixBox, alixEducation, banner, dogPositif, medecineCh, shiba, shibaCalin };
+export { alixBox, alixEducation, alixFtd, banner, dogPositif, medecineCh, shiba, shibaCalin };

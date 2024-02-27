@@ -2,9 +2,13 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1.25rem 2.25rem;
-  position: absolute;
-  z-index: 10;
+  padding: 0.5rem 2.25rem;
+  position: fixed;
+  z-index: 100;
+  background: #0909092b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(2px);
 }
 
 .navButton {
@@ -25,7 +29,7 @@ nav {
   align-items: center;
 }
 
-.title {
+nav .title {
   margin-left: 1rem;
   font-family: montserrat-bold;
   color: #ffffff;
@@ -108,7 +112,7 @@ nav {
 }
 
 @media screen and (min-width: 1536px) {
-  nav .web-site-logo .logo{
+  nav .web-site-logo .logo {
     width: 3rem;
     height: 3rem;
   }
@@ -118,6 +122,6 @@ nav {
   }
 
   nav .navButton {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }

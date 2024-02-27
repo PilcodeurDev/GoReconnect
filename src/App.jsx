@@ -1,7 +1,7 @@
 /**
  * The external imports
  */
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PropTypes from "prop-types";
 
 /**
@@ -16,6 +16,7 @@ import GeneralConditionsSale from "./components/pages/GeneralConditionsSale/Gene
 import GeneralConditionsUse from "./components/pages/GeneralConditionsUse/GeneralConditionsUse";
 import ScrollToAnchor from "./helper/ScrollToAnchor";
 import Erreur404 from "./components/pages/error404/Error404";
+import KinesiologiePage from "./components/pages/KinesiologiePage/KinesiologiePage";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "mentions-legales",
     element: <Root element={<LegalNotion />} />,
+  },
+  {
+    path: "la-kinesiologie",
+    element: <Root element={<KinesiologiePage />} />,
   },
   {
     path: "condition-general-d-utilisation",

@@ -119,7 +119,7 @@ export default function Kinesiologie() {
                     </div>
                   </div>
                 </div>
-                <Link to="/#" className="secondary-btn">
+                <Link to="/la-kinesiologie" className="secondary-btn">
                   <span>La Kinésiologie</span>
                   <span>en savoir plus...</span>
                 </Link>

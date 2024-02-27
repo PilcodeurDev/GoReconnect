@@ -1,16 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./KinesiologiePage.css";
+import { dogPositif, medecineCh } from "../../../assets";
 
 export default function KinesiologiePage() {
   return (
     <div id="container-kinesio">
+      <img className="featured-img" src={dogPositif} alt="kinesiologie" />
       <div className="title">
         <h1>La Kinésiologie</h1>
       </div>
-      {/* add image */}
-      {/* <div className="kinesio-image">
-        <img src={} alt="kinesiologie" />
-      </div> */}
       <div className="text-kinesio">
         <p>
           La kinésiologie est une méthode basée sur la médecine chinoise,
@@ -56,6 +54,11 @@ export default function KinesiologiePage() {
         <div className="question">
           Une fois la séance réalisé, le problème de mon animal aura disparu ?
         </div>
+        <img
+          className="image-in-text"
+          src={medecineCh}
+          alt="kinésiologie séance"
+        />
         <p>
           Je n'ai ni baguette magique, ni potion miracle. Je ne peux vous
           garantir un résultat ou transformation extraordinaire. Les animaux ont
@@ -82,9 +85,9 @@ export default function KinesiologiePage() {
           Tous les animaux peuvent bénéficier d'une séance de kinésiologie?
         </div>
         <p>
-          Oui, tous peuvent en bénéficier ! Qu'ils soient de
-          compagnie, d'élevage, NACS ou sauvages, la
-          kinésiologie contribue à améliorer le bien-être de nos animaux.
+          Oui, tous peuvent en bénéficier ! Qu'ils soient de compagnie,
+          d'élevage, NACS ou sauvages, la kinésiologie contribue à améliorer le
+          bien-être de nos animaux.
         </p>
         <div className="question">
           Quelles techniques ou méthodes utilises-tu ?

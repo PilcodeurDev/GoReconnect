@@ -1,4 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
+/**
+ * The internal imports
+ */
 import "./KinesiologiePage.css";
 import { dogPositif, medecineCh } from "../../../assets";
 

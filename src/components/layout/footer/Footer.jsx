@@ -21,7 +21,7 @@ export default function Footer() {
     <footer>
       <div className="links">
         <div className="offset">
-          <Link to="/#moveUp">
+          <Link to="/">
             <img
               src={logo}
               alt="logo goreconnect"
@@ -33,10 +33,10 @@ export default function Footer() {
           <Link to="/#moveUp" className="link">
             Accueil
           </Link>
-          <Link to="/#laKinesiologie" className="link">
-            Mes prestations
+          <Link to="/la-kinesiologie" className="link">
+            La Kinésiologie
           </Link>
-          <Link to="/#quiJeSuis" className="link">
+          <Link to="/qui-suis-je" className="link">
             Qui suis-je ?
           </Link>
           <Link to="/#contact" className="link">

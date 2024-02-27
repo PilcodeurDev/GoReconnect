@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav>
       <div className="web-site-logo">
         <div className="logo">
-          <Link to="/#moveUp">
+          <Link to="/">
             <img src={logo} alt="logo Go Reconnect" />
           </Link>
         </div>
@@ -29,7 +29,7 @@ export default function Navbar() {
       </div>
       <div className={` navButton ${showMenu ? "showNavbar" : "hiddenNavbar"}`}>
         <Link to="/la-kinesiologie">La Kinésiologie</Link>
-        <Link to="/#quiJeSuis">Qui Suis-Je</Link>
+        <Link to="/qui-suis-je">Qui Suis-Je</Link>
         <Link to="/#contact">Contact</Link>
         <Link to="/#reservation" className="main-button">
           Rendez-Vous

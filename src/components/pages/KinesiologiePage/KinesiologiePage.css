@@ -59,7 +59,6 @@
   #container-kinesio .image-in-text {
     width: 200px;
     height: 200px;
-    /* margin-left: 0px; */
     shape-outside: content-box;
   }
 }

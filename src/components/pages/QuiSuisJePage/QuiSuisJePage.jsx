@@ -11,12 +11,72 @@ import "./QuiSuisJePage.css";
 export default function QuiSuisJePage() {
   const ameAnimal = (
     <a
-      className="ameanimal-link"
+      className="link"
       target="_blank"
       rel="noreferrer"
       href="https://www.kinesiologie-ameanimale.fr/"
     >
       Âme Animale
+    </a>
+  );
+  const danielleDibbens = (
+    <a
+      className="link"
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.danielledibbens.fr/p/tteam-et-ttouch.html?m=1"
+    >
+      Danielle Dibbens
+    </a>
+  );
+  const monicaGoold = (
+    <a
+      className="link"
+      target="_blank"
+      rel="noreferrer"
+      href="https://fr.monica-goold.com/workshops"
+    >
+      Monica Goold
+    </a>
+  );
+  const maSlowBoite = (
+    <a
+      className="link"
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.maslowboite.com/"
+    >
+      Ma Slow Boîte
+    </a>
+  );
+  const lesAmesFleurs = (
+    <a
+      className="link"
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.ecolelesamesfleurs.com/"
+    >
+      les Âmes Fleurs
+    </a>
+  );
+  const rawFedAndNerdy = (
+    <a
+      className="link"
+      target="_blank"
+      rel="noreferrer"
+      href="https://rawfedandnerdy.com/"
+    >
+      Raw Fed And Nerdy
+    </a>
+  );
+  const animoTao = (
+    <a
+      className="link"
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.animotao.com/fr/"
+    >
+      AnimoTao
     </a>
   );
 
@@ -98,57 +158,57 @@ export default function QuiSuisJePage() {
       <ul>
         <li>
           Novembre 2021 - Juin 2022 : Formation initiale de kinésiologue
-          animalière - l'école {ameAnimal}
+          animalière - l'école {ameAnimal} de Mélanie Conet
         </li>
         <li>
           Décembre 2021 : Formation en Communication Animale (vivants et
-          défunts)
+          défunts) - l'école {ameAnimal} de Mélanie Conet
         </li>
         <li>
           Novembre 2022 : Formation de spécialisation en kinésiologie pour les
-          Animaux Sauvages - l'école {ameAnimal}
+          Animaux Sauvages - l'école {ameAnimal} de Mélanie Conet
         </li>
         <li>
           Mai 2023 : Initiation à la méthode TTEAM (Tellington Touch Equine
-          Awareness Method) avec Danielle Dibbens
+          Awareness Method) de {danielleDibbens}
         </li>
         <li>
           Juin 2023 : Initiation à la méthode Equin Body Talk (méthode
-          Masterson) avec Monica Goold
+          Masterson) de {monicaGoold}
         </li>
         <li>
-          Septembre 2023 : Module post certifié en Kinésiologie Animale à
-          l'école {ameAnimal} avec Mélanie Conet
+          Septembre 2023 : Module post certifié en Kinésiologie Animale -
+          l'école {ameAnimal} de Mélanie Conet
         </li>
       </ul>
       <h4>Formations en cours :</h4>
       <ul>
         <li>
-          Depuis Octobre 2022 : Formation en Slowprenariat avec Ma Slow Boîte et
+          Depuis Février 2024 : Formation en nutrition cru Canin et Félin :{" "}
+          {rawFedAndNerdy} de Savannah Welna (USA)
+        </li>
+        <li>
+          Depuis Octobre 2022 : Formation en Slowprenariat - {maSlowBoite} de
           Laure Daudier
         </li>
         <li>
-          Depuis août 2022 : Formation en Herboristerie Animalière avec L'école
-          les Âmes Fleurs et Marie-Christine Vallières (Québec)
+          Depuis août 2022 : Formation en Herboristerie Animalière - L'école{" "}
+          {lesAmesFleurs} de Marie-Christine Vallières (Québec)
         </li>
       </ul>
       <h4>Formations à venir pour 2024 :</h4>
       <ul>
         <li>
-          Module de spécialisation en kinésiologie : Aura des animaux avec
-          Mélanie Conet - l'école {ameAnimal}
+          Module de spécialisation en kinésiologie : Aura des animaux - l'école{" "}
+          {ameAnimal} de Mélanie Conet
         </li>
         <li>
-          Principes fondamentaux en médecine chinoise avec Jean-Luc Klein -
-          AnimoTao
+          Principes fondamentaux en médecine chinoise - {animoTao} de Jean-Luc
+          Klein
         </li>
-        <li>Phytothérapie chinoise avec Jean-Luc Klein - AnimoTao </li>
+        <li>Phytothérapie chinoise - {animoTao} de Jean-Luc Klein</li>
         <li>
-          Bilan énergétique en médecine chinoise avec Jean-Luc Klein - AnimoTao
-        </li>
-        <li>
-          Formation en nutrition cru Canin et Félin : Raw Fed and Nerdy (USA)
-          avec Savannah Welna
+          Bilan énergétique en médecine chinoise - {animoTao} de Jean-Luc Klein{" "}
         </li>
       </ul>
     </div>

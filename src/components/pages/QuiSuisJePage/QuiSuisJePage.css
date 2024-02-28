@@ -20,9 +20,6 @@
 #container-quisuisje .title {
   font-size: 3rem;
   margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #container-quisuisje .subtitle {
@@ -31,13 +28,13 @@
   font-family: dancingScript;
 }
 
-#container-quisuisje .ameanimal-link {
+#container-quisuisje .link {
   font-size: 18px;
   color: black;
   font-family: montserrat-bold;
   text-decoration: none;
 }
-#container-quisuisje .ameanimal-link:hover {
+#container-quisuisje .link:hover {
   text-decoration: underline;
 }
 

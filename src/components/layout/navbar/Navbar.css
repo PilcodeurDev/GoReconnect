@@ -74,6 +74,7 @@ nav .title {
 @media screen and (max-width: 840px) {
   .navButton {
     display: none;
+    margin: 0;
   }
 
   nav {

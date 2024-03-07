@@ -28,12 +28,14 @@ export default function Navbar() {
         </div>
       </div>
       <div className={` navButton ${showMenu ? "showNavbar" : "hiddenNavbar"}`}>
-        <Link to="/la-kinesiologie">La Kinésiologie</Link>
-        <Link to="/qui-suis-je">Qui Suis-Je</Link>
-        <Link to="/#contact">Contact</Link>
-        <Link to="/#reservation" className="main-button">
-          Rendez-Vous
-        </Link>
+        <div className={` navButton ${showMenu ? "buttons" : ""}`}>
+          <Link to="/la-kinesiologie">La Kinésiologie</Link>
+          <Link to="/qui-suis-je">Qui Suis-Je</Link>
+          <Link to="/#contact">Contact</Link>
+          <Link to="/#reservation" className="main-button">
+            Rendez-Vous
+          </Link>
+        </div>
       </div>
       <button onClick={() => setShowMenu(!showMenu)} className="menuBurger">
         {showMenu ? (

@@ -62,10 +62,10 @@ nav .title {
 
 @media (max-width: 1200px) {
   nav {
-    padding: 1.25rem 1.25rem;
+    padding: 0.5rem 1.25rem;
   }
 
-  .logo{
+  .logo {
     width: 4rem;
     height: 4rem;
   }
@@ -77,12 +77,12 @@ nav .title {
   }
 
   nav {
-    padding: .5rem 1.25rem;
+    padding: 0.5rem 1.25rem;
   }
 
   .menuBurger {
     display: block;
-    margin: 1rem 2rem;
+    margin: 1rem 0;
     z-index: 20;
 
     svg {
@@ -96,7 +96,7 @@ nav .title {
   }
 
   .showNavbar {
-    height: 45vh;
+    height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
@@ -113,6 +113,16 @@ nav .title {
       text-decoration: none;
       color: #ffffff;
     }
+  }
+
+  .buttons {
+    width: 75%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   .hiddenNavbar {

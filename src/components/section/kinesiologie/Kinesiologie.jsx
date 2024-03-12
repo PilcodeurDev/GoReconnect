@@ -1,7 +1,11 @@
 /**
  * The external imports
  */
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useQuery } from "@tanstack/react-query";
 
 /**
  * The internal imports
@@ -15,41 +19,44 @@ import {
   physical,
   workSpace,
 } from "../../../assets";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BubbleAnimation from "../../animation/BubbleAnimation";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const WrapperTextsKinesiologie = () => {
-  const wrapperTextsArray = [
-    {
-      subtitle: "Bien-être",
-      text: "La kinésiologie vise à améliorer le bien-être des animaux en équilibrant leur énergie intérieure et leurs émotions.",
-    },
-    {
-      subtitle: "Pour quels problèmes?",
-      text: "Gestion des émotions, réactivité, peurs, angoisse, séparation, destruction, stéréotypies, détresse émotionnelle, etc.",
-    },
-    {
-      subtitle: "Quels bienfaits ?",
-      text: "Retrouver un apaisement, la joie de vivre, une harmonie et une paix intérieure.",
-    },
-  ];
+const fecthInfoBulle = async () => {
+  const response = await fetch("http://localhost:1337/api/info-bulle-kinesios");
+  const data = await response.json();
+  return data;
+};
 
-  return wrapperTextsArray.map(({ subtitle, text }, index) => {
-    return (
-      <div key={index} className="contener-text">
-        <div className="background-circle-one"></div>
-        <h4 className="sub-title">{subtitle}</h4>
-        <p className="text-kinesio">{text}</p>
-        <div className="background-circle-tow"></div>
-      </div>
-    );
-  });
+const InfoBullesList = ({ infoBulles }) => {
+  const data = infoBulles?.data || [];
+
+  return (
+    <>
+      {data.map((infobulle, index) => (
+        <div key={index} className="contener-text">
+          <div className="background-circle-one"></div>
+          <h4 className="sub-title">{infobulle.attributes.subTitle}</h4>
+          <p className="text-kinesio">{infobulle.attributes.text}</p>
+          <div className="background-circle-tow"></div>
+        </div>
+      ))}
+    </>
+  );
 };
 
 export default function Kinesiologie() {
+  const {
+    data: infoBulles = [],
+    isLoading,
+    isError,
+    error,
+  } = useQuery({
+    queryKey: ["infoBulle"],
+    queryFn: fecthInfoBulle,
+  });
+
   return (
     <section id="laKinesiologie">
       <div className="container">
@@ -127,10 +134,19 @@ export default function Kinesiologie() {
             </div>
           </div>
           <div className="content-text-kinesio">
-            <WrapperTextsKinesiologie />
+            {isLoading && <div>Loading...</div>}
+            {isError && <div>Error: {error.message}</div>}
+            <InfoBullesList infoBulles={infoBulles} />
           </div>
         </div>
       </div>
     </section>
   );
 }
+
+InfoBullesList.propTypes = {
+  infoBulles: PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.object,
+  ]).isRequired,
+};

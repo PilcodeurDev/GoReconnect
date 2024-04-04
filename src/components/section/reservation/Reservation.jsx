@@ -22,7 +22,7 @@ export default function Reservation() {
                   className="main-button"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://calendly.com/kinesiologie_animaliere_25/20min"
+                  href="https://calendly.com/kinesiologie_animaliere_25/30min"
                 >
                   Appel Téléphonique
                 </a>

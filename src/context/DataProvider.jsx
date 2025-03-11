@@ -10,8 +10,8 @@ export default function DataProvider(props) {
     site: "Go Reconnect",
     url: "https://www.goreconnect.ch",
     name: "Alix Lucidarme",
-    address: "32 Bis rue de l'Etang, 25560 Frasne",
-    phone: "+33 6.68.35.23.77",
+    address: "33 rue des Pyrénées, 64160 Saint-Jammes",
+    phone: "+33 6 68 35 23 77",
     email: "contact@goreconnect.ch",
     siretNumber: "87866319400024",
   });

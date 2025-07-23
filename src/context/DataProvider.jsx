@@ -12,7 +12,7 @@ export default function DataProvider(props) {
     name: "Alix Lucidarme",
     address: "33 rue des Pyrénées, 64160 Saint-Jammes",
     phone: "+33 6 68 35 23 77",
-    email: "contact@goreconnect.ch",
+    email: "kinesiologieanimaliere25@gmail.com",
     siretNumber: "87866319400024",
   });
 

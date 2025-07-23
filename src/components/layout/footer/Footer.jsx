@@ -4,8 +4,12 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { fbk, insta, whatsApp, logo } from "../../../assets";
+import { DataContext } from "../../../context/DataProvider";
+import { useContext } from "react";
 
 export default function Footer() {
+  const { owner } = useContext(DataContext);
+
   const PilcodeurDev = (
     <a
       href="https://despres-simon.com/"
@@ -34,7 +38,7 @@ export default function Footer() {
             Accueil
           </Link>
           <Link to="/la-kinesiologie" className="link">
-            La Kinésiologie
+            La kinésiologie
           </Link>
           <Link to="/qui-suis-je" className="link">
             Qui suis-je ?
@@ -68,7 +72,7 @@ export default function Footer() {
       </div>
       <div className="central-links">
         <div>
-          <span>© 2024 Kinésiologie Animalière 25 Tous droits réservés.</span>
+          <span>{owner.site} © 2025 - Tous droits réservés.</span>
           <span>
             <Link to="/mentions-legales" className="link">
               Mentions légales
